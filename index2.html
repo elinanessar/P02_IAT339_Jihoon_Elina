@@ -1,0 +1,437 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>P01_Process</title>
+
+        <link href="css_2/main.css" rel="stylesheet">
+        <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Raleway:wght@100;200;400;600;700;900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="text-align-center">JBL Canada</h1>
+        </header>
+
+        <!-- JBL motto pulled from official JBL website:https://ca.jbl.com/?#:~:text=We%20unleash%20the%20power%20of,the%20fullest%20wherever%20and%20whenever. -->
+        <p class="text-align-center">We unleash the power of music so you can live life to the fullest wherever and whenever.</p>
+        
+        <br>
+
+        <h2>P02 Link to Second styleguide</h2>
+        <a class="link-button" href="http://127.0.0.1:5500/index.html">Elina's Page</a>
+        <br>
+        <h2>June 8 deliverables on seperate pages:</h2>
+        <br>
+        <a class = "link-button" href="http://127.0.0.1:5500/listing.html">Product Listing Page</a>
+        <a class="link-button" href="http://127.0.0.1:5500/checkout.html">Checkout Page</a>
+
+        <br><br>
+
+        <h2>Elements</h2>
+
+        <section class="element">
+        <h3>In-text links</h3>
+        <h2>Explore our products</h2>
+        <a class= "link-button" target="_blank" href="https://www.bestbuy.ca/en-ca/brand/jbl">Explore JBL products on BestBuy</a></li>
+        <a class= "link-button" target="_blank" href ="https://www.amazon.ca/stores/page/FD1DFEE4-E640-4072-855B-159A2551FB90/?_encoding=UTF8&store_ref=SB_A09180691E0OCAX5DAU95&pd_rd_plhdr=t&aaxitk=09f45be32e38e7f71d80090eafd2c5a1&hsa_cr_id=6811384890601&lp_asins=B09VMPBBY5%2CB094DPXR4X%2CB08CPN339Y&lp_query=JBL&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_lsi4d_hl&pd_rd_w=NwkZ1&content-id=amzn1.sym.c053d8de-f8fa-4462-9809-a60a1c2281d4%3Aamzn1.sym.c053d8de-f8fa-4462-9809-a60a1c2281d4&pf_rd_p=c053d8de-f8fa-4462-9809-a60a1c2281d4&pf_rd_r=H8H6TXZX4Q09FNPT1WK6&pd_rd_wg=mqyu5&pd_rd_r=c2b301ec-78c2-48ae-afb3-45f79ecda695">Explore JBL products on Amazon</a></li>
+        </section>
+
+        <section class="element">
+
+            <h3>Navigation Link</h3>
+        
+            <h4>CSS selector:</h4>
+            <p>.button-nav</p>
+        
+            <h4>Sample code:</h4>
+            <code>&lt;a href="https://ca.jbl.com/speakers/" class="button-nav"&gt;JBL Speakers&lt;/a&gt;</code>
+        
+            <h4>Rendered element:</h4>
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/speakers/">JBL Speakers</a>
+        
+        </section>
+        
+        <section class="element">
+            <h3>A submit and reset button for forms</h3>
+            <h4>CSS selectors:</h4>
+            <p>.button-submit, .button-reset</p>
+        
+            <h4>Sample code:</h4>
+            <code>
+                &lt;form&gt;
+                    &lt;label for="email"&gt;Email Address:&lt;/label&gt;
+                    &lt;input type="email" id="email" name="email" placeholder="example@example.com"&gt;
+                    &lt;input type="submit" value="Subscribe" class="button-submit"&gt;
+                    &lt;input type="reset" value="Reset" class="button-reset"&gt;
+                &lt;/form&gt;
+            </code>
+        
+            <h4>Rendered element:</h4>
+            <h3>Subscribe to our newsletter</h3>
+            <form>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com">
+                <input class="link-button" type="submit" value="Subscribe" class="button-submit">
+                <input class="link-button" type="reset" value="Reset" class="button-reset">
+            </form>
+        
+        </section>
+
+        <section class ="element">
+            <h3>A text input field and a label</h3>
+            <form>
+                <label for="username" class="label-text">User Name:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" class="input-text">
+            
+                <label for="password" class="label-password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" class="input-password">
+             <form>
+        </section>
+
+        <section class="element">
+            <h3>A radio button input field and a label</h3>
+            <form>
+                <label class="radio-label">
+                    <input type="radio" name="product-category" value="speakers" class="radio-input">Speakers
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="product-category" value="headphones" class="radio-input">Headphones
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="product-category" value="soundbars" class="radio-input">Soundbars
+                </label>
+            </form>
+        </section>
+
+        <section class ="element">
+            <h3>An image as a link</h3>
+            <a class = "image-link" target ="_blank" href = "https://ca.jbl.com/CHARGE5-.html?dwvar_CHARGE5-_color=Grey-AM-Current">
+                <img class = "image" src="img_2/JBL_CHARGE5.png" alt="JBL Charge 5" width="400px">
+            </a>
+        </section>
+
+        <section class ="element">
+            <h3>Paragraph</h3>
+            <p class="product-description">
+                The JBL Charge 5 is a powerhouse portable Bluetooth speaker that delivers outstanding audio performance. <br><br> 
+                Crafted to be robust and waterproof, it's perfect for listening at home or on-the-go, regardless of weather conditions. 
+                It's equipped with a built-in power bank, allowing you to charge your devices directly from the speaker, 
+                extending your playtime and keeping your gadgets powered up. With JBL's proprietary driver and two JBL bass radiators, 
+                the Charge 5 offers an immersive audio experience, delivering powerful sound with strong, deep bass. 
+                <br><br>The speaker also comes with a USB-C port for fast charging, and a 20-hour battery life, so your music can go on for as long as you do. 
+            </p>
+        </section>
+
+        <section class="element">
+            <h3>Numbered list</h3>
+            <h4>Reasons to choose our new JBL Charge 5</h2>
+            <ol>
+                <li>Powerful audio performance with JBL proprietary driver and two JBL bass radiators</li>
+                <li>Built-in power bank to charge your devices</li>
+                <li>Waterproof and durable design</li>
+                <li>20-hour battery life</li>
+                <li>USB-C port for fast charging</li>
+            </ol>
+        </section>
+
+        <section class="element">
+            <h3>Main navigation</h3>
+
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/CHARGE5-.html?dwvar_CHARGE5-_color=Grey-AM-Current&cgid=bluetooth-speakers#start=1">JBL Charge 5</a></li>
+            <a class="link-button"target="_blank" href="https://ca.jbl.com/PULSE-5-.html?dwvar_PULSE-5-_color=Black-AM-Current&cgid=bluetooth-speakers#start=1">JBL Pulse 5</a></li>
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/FLIP-6-.html?dwvar_FLIP-6-_color=Grey-AM-Current&cgid=bluetooth-speakers#start=1">JBL Flip 6</a></li>
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/JBL+BOOMBOX+2-.html?dwvar_JBL%20BOOMBOX%202-_color=Black-AM-Current&cgid=bluetooth-speakers#start=1">JBL Boombox 2</a></li>
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/speakers/">View all Speakers</a></li>
+            <br><br><br>
+
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/QUANTUMONE.html?dwvar_QUANTUMONE_color=Black-US-Current&cgid=headphones#start=1">JBL Quantum ONE</a></li>
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/LIVE660NC-.html?dwvar_LIVE660NC-_color=White-AM-Current&cgid=headphones#start=1">JBL Live 660NC</a></li>
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/LIVE-PRO-2-TWS-.html?dwvar_LIVE-PRO-2-TWS-_color=Blue-AM-Current&cgid=headphones#start=1">JBL Live Pro TWS</a></li>
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/headphones/?brwseAll=true">View all Headphones</a></li>
+            <br><br><br>
+
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/sale/">Specials</a></li>
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/returns.html">Returns</a></li>
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/support-knowledgebase.html">Support</a></li>
+            <a class="link-button" target="_blank" href="https://ca.jbl.com/support-knowledgebase.html">Terms and Conditions</a></li>
+        </section>
+
+        <section class="element">
+            <h3>Product listing</h3>
+            <h2>JBL Charge 5</h2>
+            <a class = "image-link" target="_blank" href="https://ca.jbl.com/CHARGE5-.html?dwvar_CHARGE5-_color=Grey-AM-Current&cgid=bluetooth-speakers#start=1">
+                <img class = "image" src="img_2/JBL_CHARGE5.png" alt="JBL Charge 5" width="500px">
+            </a>
+            <h3>$239.98</h3>
+            <p>The JBL Charge 5 is a state-of-the-art portable Bluetooth speaker that seamlessly blends robust performance with convenience.
+                Designed for users who value high-quality sound and durability, the Charge 5 is ideal for both indoor and outdoor usage.
+                Its waterproof feature ensures it stands up to all kinds of weather, while its rugged build promises long-lasting durability. 
+                Boasting a built-in power bank, the Charge 5 doubles as a charging station, ensuring your devices stay powered even on the go. 
+                The speaker uses JBL's proprietary driver coupled with two JBL bass radiators to deliver sound of unparalleled quality. 
+                Expect deep, immersive bass and clear, detailed sound reproduction across all music genres. 
+                Additionally, the Charge 5 comes with a USB-C port for quick and efficient charging, and offers an impressive 20-hour battery life,
+                making it the perfect companion for all-day musical enjoyment. Experience the fusion of style, durability, and remarkable 
+                performance with the JBL Charge 5.</p>
+                <br>
+            <a class = "link-button"target="_blank" href="https://ca.jbl.com/CHARGE5-.html?dwvar_CHARGE5-_color=Grey-AM-Current&cgid=bluetooth-speakers#start=1">Read more</a>
+        </section>
+
+        <section class="element">
+        <h2>JBL Pulse 5</h2>
+        <a class = "image-link" target="_blank" href="https://ca.jbl.com/PULSE-5-.html?dwvar_PULSE-5-_color=Black-AM-Current&cgid=bluetooth-speakers#start=1">
+            <img class = "image" src="img_2/JBL_PULSE5.png" alt="JBL Pulse 5" width="500px">
+        </a>
+        <h3>$299.98</h3>
+        <p>
+            The JBL Pulse 5 takes portable Bluetooth speakers to new heights, providing a visually mesmerizing experience paired with 
+            impeccable audio quality. This speaker is renowned for its signature light show feature that synchronizes with your music 
+            to create an engaging, multi-sensory experience. With its robust, waterproof design, it can withstand all types of weather,
+            making it the ideal companion for outdoor adventures or relaxed indoor listening. The JBL Pulse 5 employs an exclusive driver
+            and dual JBL bass radiators, ensuring crisp, clear audio and deep, resounding bass across various music genres. Its 360-degree
+            speaker array ensures sound is distributed evenly, no matter where you are in relation to the speaker. This exceptional
+            speaker also boasts a USB-C port for efficient charging, along with a 12-hour battery life to power your parties or quiet
+            moments of relaxation. With the JBL Pulse 5, you're not just listening to music, you're experiencing it.
+        </p>
+        <br>
+        <a class = "link-button" target="_blank" href="https://ca.jbl.com/PULSE-5-.html?dwvar_PULSE-5-_color=Black-AM-Current&cgid=bluetooth-speakers#start=1">Read more</a>
+        </section>
+
+        <section class="element">
+        <h2>JBL Flip 6</h2>
+        <a class = "image-link" target="_blank" href="https://ca.jbl.com/FLIP-6-.html?dwvar_FLIP-6-_color=Grey-AM-Current&cgid=bluetooth-speakers#start=1">
+            <img class = "image" src="img_2/JBL_FLIP6.png" alt="JBL Flip 6" width="500px">
+        </a>
+        <h3>$169.98</h3>
+        <p>
+            The JBL Flip 6 is a compact yet powerful portable Bluetooth speaker that excels in both design and performance. 
+            Tailored for listeners who demand excellent audio quality and portability, this speaker is perfect for any setting,
+            from indoor relaxation to outdoor adventures. Its waterproof and dustproof features guarantee durability under 
+            diverse conditions, making it a versatile companion for all your journeys. The Flip 6 uses JBL's proprietary Pro
+            Sound technology, incorporating a racetrack-shaped driver and dual JBL bass radiators to deliver vibrant, clear
+            sound and deep, impactful bass. It further distinguishes itself with a USB-C port for fast charging and an impressive
+            12-hour battery life, ensuring uninterrupted music playback throughout the day. With its sleek design, robust build,
+            and high-quality sound, the JBL Flip 6 is a top-tier choice for those seeking a portable speaker that doesn't compromise
+            on performance.
+        </p>
+        <br>
+        <a class = "link-button" target="_blank" href="https://ca.jbl.com/FLIP-6-.html?dwvar_FLIP-6-_color=Grey-AM-Current&cgid=bluetooth-speakers#start=1">Read more</a>
+        </section>
+
+        <section class="element">
+        <h3>Payment form</h3>
+        <h2>Pay with:</h2>
+        <form>
+            <label class="radio-label">
+                <input type="radio" name="payment-type" value="Visa" class="radio-input">Visa
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="payment-type" value="MasterCard" class="radio-input">MasterCard
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="payment-type" value="AMEX" class="radio-input">AMEX
+            </label>
+       
+            <br><br>
+
+            <label for="cardnumber" class="label-text">Card Number:</label>
+            <input type="text" id="cardnumber" name="cardnumber" placeholder="0000 0000 0000 0000" class="input-text">
+            <br><br>
+            <label for="expiry month" class="label-text">Expiry Month</label>
+            <input type="text" id="expiry-month" name="expiry-month" placeholder="MM" class="input-text">
+            <label for="expiry year" class="label-text">Expiry Year</label>
+            <input type="text" id="expiry-year" name="expiry-year" placeholder="YYYY" class="input-text">
+            <br><br>
+            <label for="cvv" class="label-text">CVV:</label>
+            <input type="password" id="cvv" name="cvv" placeholder="000" class="text-password">
+            
+            
+            <input class= "link-button" type="submit" value="Purchase" class="button-submit">
+            <input class = "link-button" type="reset" value="Clear" class="button-reset">
+        </form>
+        </section>
+
+        <section class="element">
+            <h3>Checkout cart</h3>
+            <table class="checkout-cart">
+                <tr>
+                    <th>Product Name</th>
+                    <th>Cost</th>
+                </tr>
+                <tr>
+                    <td>JBL Charge 5</td>
+                    <td>$239.98</td>
+                </tr>
+                <tr>
+                    <td>JBL Flip 6</td>
+                    <td>$169.98</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$49.20</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$459.16</td>
+                </tr>
+            </table>    
+        </section>
+
+        <section class="element">
+            <h3>Branding ideas</h3>
+            <h3>About us</h3>
+            <p>
+                As a leading entity in the audio equipment industry, we at JBL are committed to providing sound experiences
+                that resonate and captivate. We design and produce a wide array of high-quality audio products, from personal
+                headphones and Bluetooth speakers to home theater systems and professional studio equipment. Our products cater
+                to a diverse audience - whether you're an individual seeking to amplify your personal music enjoyment or a
+                professional looking to construct immersive soundscapes. With our emphasis on durable design, cutting-edge
+                technology, and unmatched sound quality, we provide the tools and tech you need to embark on an extraordinary
+                audio journey.
+            </p>
+            
+
+            <h3>Company to potential customers as a person</h3>
+            <p>
+                If JBL were personified, it would be akin to a reliable, charismatic friend who is always the life of the party.
+                This friend brings energy and excitement wherever they go, ensuring that everyone's experiences are amplified and
+                memorable. They are the friend you turn to when you want to elevate your experiences, the one who understands the
+                importance of quality and never compromises on it.
+            </p>
+
+            <h3>Why might this company entice someone to purchase a product or service</h3>
+            <p>
+                The key reason is our unwavering commitment to sound quality - we understand that great audio can transform everyday
+                experiences into memorable ones, and we ensure our products consistently deliver superior sound. Our broad range of
+                products caters to a variety of needs and budgets, offering something for everyone - from casual listeners to
+                professional audio engineers.
+            </p>
+
+            <h3>Fonts</h3>
+            <h3>Raleway</h3>
+            <p>Raleway is a unique, yet simple and clean typeface that pushes its modernality 
+                and stylistic ques very well. Because JBL is pushing more towards the younger audiences
+                and as well as it is always experimenting and challenging for the better, Raleway typeface will
+                dissolve well with the company identity. 
+
+                <br><br>
+
+                I have used different thickness varients of the Raleway typeface for Headers, Sub-Headers, Subjects, and Paragraphs.
+            </p>
+
+            <h2>H2 - Used for Headers</h2>
+            <h3>H3 - Used for Sub-Headers</h3>
+            <h4>H4 - Used for Subjects</h4>
+            <p>P - Used for Paragraphs</p>
+            <h4>0123456789
+                <br><br>
+                !@#$%^&*()
+                <br><br>
+                A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+                <br>
+                a b c d e f g h i j k l m n o p q r s t u v w x y z
+            </h4>
+
+            <br>
+
+            <h3>Orbitron</h3>
+            <p>
+                Orbitron is a futuristic and geometric typeface characterized by clean lines,
+                 sharp angles, and bold, condensed letters. Inspired by science fiction and space
+                  exploration, it exudes a modern and technological vibe, perfect for projects seeking
+                   a sleek, forward-thinking aesthetic.
+
+                   <br><br>
+
+                I have used Orbitron typeface for the titles of the website to give it a futuristic look. JBL Canada, Our Products, and Checkout.
+            </p>
+
+            <h1>H1 - Title</h1>
+
+            <br><br>
+
+
+            <h3>Color palette</h3>
+            <h4>Hex: #ff6600 | RGB: 255, 102, 0</h4>
+            <p>JBL currently uses #ff6600 (orange) theme color, however, addition of calm black color would complement the bright orange theme color well.
+                <br><br> 
+                The Orange color (#ff6600) is used for accents and interaction points to help users to focus on the important aspects, and as well as to help 
+                guiding them to the interactions.
+                <br><br>
+                The Black color (#000000) is used for the website background color, to help accentuate the use of the white letterings and the orange cue points.
+             </p>
+            
+         <div class = "color-container">
+            <div class="product">
+            <a class = "image-link" target="_blank" href="https://www.colorhexa.com/ff6600">
+             <img class = "image" src="img_2/ff6600.png" alt="#ff6600">
+             <p class="product-name">#ff6600</p>
+            </a>
+            </div>
+
+    
+
+            <div class="product">
+            <a class = "image-link" target="_blank" href="https://www.colorhexa.com/000000">
+                <img class = "image" src="img_2/000000.png" alt="#000000">
+                <p class="product-name">#000000</p>
+            </a>
+            </div>
+        </div>
+
+            <br>
+            <h3>Potential imagery and, or, art direction</h3>
+            <p>
+                Simple website that carries dark themed background with large white panels with orange text accents.
+                <br><br> Showcase products in large panels that emphasize its design with images, its name, price, short product descriptions, <br>
+                and who the product is for (amateurs, professionals, indoor, outdoor).
+
+                <br><br>
+                
+                The font combinations will be one type of typeface with multiple varients:
+                Thin 100, ExtraLight 200, Regular 400, SemiBold 600, Bold 700, and Black 900.
+                
+                <br><br>
+
+                The different varients of the typeface will be used to incorporate the site with 
+                different looks for different parts of the headings, and be used to highlight important
+                areas. The titles and headings will be using thicker levels of the typeface
+                to emphasize the hierarchy against paragraphs.
+
+                <br><br>
+
+                The bright orange theme color (#ff6600) will be used to highlight buttons and as
+                focusing points of the website. Buttons will be in this color to put emphasis
+                on them, as well as highlighting field inputs, its font color, and border for images. 
+                Some aspects of the color use will change its color when interacted.
+
+                <br><br>
+
+                Stock images of the products will be used to decor the front-page of the site, which 
+                are clickable to expand into detailed descriptions with prices. 
+            </p>
+        </section>
+
+        <section class="element">
+            <h3>Citations</h3>
+            <ol>
+                <li>Color Hexa. (n.d.). #000000 hex color. Retrieved May 18, 2023, from https://www.colorhexa.com/000000</li>
+                <li>Color Hexa. (n.d.). #ff6600 hex color. Retrieved May 18, 2023, from https://www.colorhexa.com/ff6600</li>
+                <li>Rtings.com. (n.d.). JBL Headphones. Rtings.com. https://www.rtings.com/headphones/reviews/jbl</li>
+                <li>Rtings.com. (n.d.). JBL Speakers. Rtings.com. https://www.rtings.com/speaker/reviews/jbl</li>
+                <li>JBL. (n.d.). JBL Charge 5. Retrieved May 18, 2023, from https://ca.jbl.com/CHARGE5-.html?dwvar_CHARGE5-_color=Grey-AM-Current&cgid=bluetooth-speakers#start=1</li>
+                <li>JBL. (n.d.). JBL: We unleash the power of music. Retrieved May 18, 2023, from https://ca.jbl.com/?#:~:text=We%20unleash%20the%20power%20of,the%20fullest%20wherever%20and%20whenever</li>
+                <li>JBL. (n.d.). JBL Flip 6. Retrieved May 18, 2023, from https://ca.jbl.com/FLIP-6-.html?dwvar_FLIP-6-_color=Grey-AM-Current&cgid=bluetooth-speakers#start=1</li>
+                <li>JBL. (n.d.). JBL Pulse 5. Retrieved May 18, 2023, from https://ca.jbl.com/PULSE-5-.html?dwvar_PULSE-5-_color=Black-AM-Current&cgid=bluetooth-speakers#start=1</li>
+                <li>JBL. (n.d.). QUANTUM ONE. https://ca.jbl.com/QUANTUMONE.html?dwvar_QUANTUMONE_color=Black-US-Current&cgid=headphones#start=1</li>
+                <li>JBL. (n.d.). LIVE 660NC. https://ca.jbl.com/LIVE660NC-.html?dwvar_LIVE660NC-_color=White-AM-Current&cgid=headphones#start=1</li>
+                <li>JBL. (n.d.). LIVE PRO+ TWS. https://ca.jbl.com/LIVE-PRO-2-TWS-.html?dwvar_LIVE-PRO-2-TWS-_color=Blue-AM-Current&cgid=headphones#start=1</li>
+                <li>Looka. (2021). The 20 Best Sans Serif Fonts for Your Designs. Retrieved May 18, 2023, from https://looka.com/blog/best-sans-serif-fonts/</li>
+                
+            </ol>
+        </section>
+        
+    </body>
+</html>

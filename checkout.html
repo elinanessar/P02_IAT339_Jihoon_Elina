@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>P01_Process</title>
+
+        <link href="css_2/main.css" rel="stylesheet">
+        <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Raleway:wght@100;200;400;600;700;900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="text-align-center">Checkout</h1>
+        </header>
+
+        <br><br>
+
+        <h2>Your Items</h2>
+        <div class="checkout-page">
+            <div class="checkout-product-section">
+                <div class="checkout-product">
+                    <p>Charge 5</p>
+                    <img src="img_2/JBL_CHARGE5.png" alt="JBL Charge 5">
+                    
+                </div>
+
+                <div class="checkout-product">
+                    <p>Flip 6</p>
+                    <img src="img_2/JBL_FLIP6.png" alt="JBL Flip 6">
+                    
+                </div>
+
+            </div>
+            <br><br><br><br><br>
+            <div class="checkout-section">
+                
+                <p>Checkout details</p>
+
+                <table class="checkout-cart">
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td>JBL Charge 5</td>
+                        <td>$239.98</td>
+                    </tr>
+                    <tr>
+                        <td>JBL Flip 6</td>
+                        <td>$169.98</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$49.20</td>
+                    </tr>
+                    <tr>
+                        <td><br><br>Total</td>
+                        <td><br><br>$459.16</td>
+                    </tr>
+                </table>  
+
+                <br><br>
+                
+                <h3>Pay with:</h3>
+        <form>
+            <label class="radio-label">
+                <input type="radio" name="payment-type" value="Visa" class="radio-input">Visa
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="payment-type" value="MasterCard" class="radio-input">MasterCard
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="payment-type" value="AMEX" class="radio-input">AMEX
+            </label>
+       
+            <br><br>
+
+            <label for="cardnumber" class="label-text">Card Number:</label>
+            <input type="text" id="cardnumber" name="cardnumber" placeholder="0000 0000 0000 0000" class="input-text">
+            <br><br>
+            <label for="expiry month" class="label-text">Expiry Month</label>
+            <input type="text" id="expiry-month" name="expiry-month" placeholder="MM" class="input-text">
+            <br><br>
+            <label for="expiry year" class="label-text">Expiry Year</label>
+            <input type="text" id="expiry-year" name="expiry-year" placeholder="YYYY" class="input-text">
+            <br><br>
+            <label for="cvv" class="label-text">CVV:</label>
+            <input type="password" id="cvv" name="cvv" placeholder="000" class="text-password">
+            
+            
+            <input class = "link-button" type="submit" value="Purchase" class="button-submit">
+            <input class = "link-button" type="reset" value="Clear" class="button-reset">
+        </form>
+
+            </div>
+        </div>
+        
+    </body>
+
+</html>
