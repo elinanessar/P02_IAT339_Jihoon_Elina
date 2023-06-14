@@ -1,0 +1,58 @@
+/* @font-face{
+    font-family: "Quan";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Quan.ttf);
+}
+
+@font-face{
+    font-family: "Quan";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Quan-Bold.ttf);
+} */
+/* Montserrat-VariableFont_wght */
+@font-face{
+    font-family: "Monteserrat";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "Monteserrat";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face{
+    font-family: "Prompt";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Prompt-Light.ttf);
+}
+@font-face{
+    font-family: "Prompt";
+    font-weight: normal;
+    font-style: italic;
+    src: url(../fonts/Prompt-LightItalic.ttf);
+}
+@font-face{
+    font-family: "Prompt";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/Prompt-Medium.ttf);
+}
+
+@font-face{
+    font-family: "Vintage";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Vintage\ Signature.otf);
+}
+
+@font-face{
+    font-family: "Charley";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/CHARLEY.otf);
+}

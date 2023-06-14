@@ -1,0 +1,242 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: "Monteserrat", Arial;
+  margin: 1rem;
+  font-size: 1em;
+  padding: 2rem;
+  background-color: rgb(197, 221, 204);
+  line-height: 1.5;
+}
+.textfont {
+  font-family: "Prompt";
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: dashed;
+  border-top-color: black;
+}
+.nav-main-item {
+  display: inline-block;
+  background-color: #638b68;
+  color: white;
+  text-decoration: none;
+  padding: 0.15rem 0.15rem;
+  transition: background-color 0.5s ease-out;
+}
+.cart-summary{
+  display: inline-block;
+  background-color: #638b68;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 1rem;
+  transition: background-color 0.5s ease-out;
+}
+
+.nav-main-item:hover,.nav-main-item:focus {
+  background-color: #91b38e;
+}
+
+.product-list-item {
+  display: inline-block;
+  background-color: #638b68;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  transition: background-color 0.5s ease-out;
+  margin: 1rem;
+  max-width: 500px;
+  border-radius: 1rem;
+}
+
+.product-list-item:hover, .product-list-item:focus{
+  filter: drop-shadow(7px 7px 10px #638b68);
+}
+
+h2:not(.special-headers) {
+  margin-top: 6rem;
+  font-family: "Prompt";
+}
+.product {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.figcaption {
+  font-size: 0.5rem;
+}
+
+h3 {
+  font-family: "Prompt";
+  font-style: italic;
+  margin-top: 1rem;
+}
+h3.example {
+  font-family: "Prompt";
+  font-style: normal;
+  margin-top: 1rem;
+}
+
+h4 {
+  font-family: "Prompt";
+  margin-bottom: 0.25rem;
+}
+.code {
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+  max-width: 50rem;
+  line-height: 1.5;
+}
+
+.citations-box{
+  max-width: 50rem;
+}
+
+
+nav a:hover,
+nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #eee;
+  padding: 0.5rem;
+  display: block;
+}
+
+section {
+  margin: 1rem;
+}
+
+input {
+  font-family: "Monteserrat", Arial;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  background-color: #b9d5bc;
+  border: 1px solid #b9d5bc;
+  padding: 0.5rem;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+input:hover,input:focus,input:active {
+  color: white;
+  background-color: #d3ecdc;
+  border: 1px solid #d3ecdc;
+}
+label {
+  color: #496b4d;
+  font-size: 1rem;
+}
+
+label:hover,label:focus,label:active {
+  color: #91b38e;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+/* i found out how to implment the placeholder code from: https://www.w3schools.com/howto/howto_css_placeholder.asp */
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+  color: rgb(128, 167, 102);
+}
+
+img:not(.product-list-img) {
+  width: 400px; /* Set the desired width */
+  height: 400px; /* Set the desired height */
+  border-radius: 1rem; /*put this for all buttons and navbar*/
+  border: 4px solid turquoise;
+}
+
+.product-list-img{
+  width: 400px; /* Set the desired width */
+  height: 400px; /* Set the desired height */
+}
+
+img:hover,img:focus,img:active {
+  /* border: 1.5px solid orangered; */
+  filter: drop-shadow(5px 5px 10px orangered);
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: #91b38e;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover,
+.button-nav:focus {
+  background-color: #c5dcc2;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+.color-rectangles {
+  display: flex;
+}
+
+.color-rectangle {
+  width: 300px;
+  height: 200px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: darkgreen;
+}
+
+.color-rectangle p {
+  margin: 0;
+  color: darkgreen;
+}
+
+@media screen and (max-width: 40em){
+  .product-list-item{
+    max-width: 300px;
+  }
+  img{
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .textfont{
+    font-size:1rem;
+  }
+  .citations-box{
+    font-size: 0.5rem;
+  }
+  .art-direction-img{
+    max-width: 200px;
+  }
+
+}
