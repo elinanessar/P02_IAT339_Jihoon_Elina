@@ -193,13 +193,6 @@ img:hover,img:focus,img:active {
   background-color: #c5dcc2;
 }
 
-/* 
-  TEXT ELEMENTS -------------------
-*/
-
-/* 
-  COMBINED ELEMENTS -------------------
-*/
 .color-rectangles {
   display: flex;
 }
@@ -219,6 +212,14 @@ img:hover,img:focus,img:active {
 .color-rectangle p {
   margin: 0;
   color: darkgreen;
+}
+
+.left-align{
+  text-align: left;
+}
+
+.cart-summary table tr td:first-child {
+  padding-right: 1rem;
 }
 
 @media screen and (max-width: 40em){
