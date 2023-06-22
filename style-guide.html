@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<!-- links to all images are put in the code below -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saje</title>
+  <link href="css/main.css" rel="stylesheet" />
+  <link href="css/normalize.css" rel="stylesheet" />
+  <link href="css/fonts.css" rel="stylesheet" />
+  <link href="css/flexbox.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>Saje</h1>
+
+    <p>
+      <i>
+        Saje is a wellness company that offers a wide range of natural and
+        plant-based products. They specialize in essential oils, skincare, and
+        wellness remedies designed to enhance physical and emotional
+        well-being. Saje is known for their commitment to using high-quality
+        ingredients and promoting a holistic approach to self-care
+      </i>
+    </p>
+
+    <nav class="box">
+      <a href="#interactive_elements" class="nav-main-item nav-item special-a">Interactive Elements</a>
+      <a href="#text_elements" class="nav-main-item nav-item special-a">Text Elements</a>
+      <a href="#combined_elements" class="nav-main-item nav-item special-a">Combined Elements</a>
+      <a href="#citations" class="nav-main-item nav-item special-a">Citations</a>
+      <a href="#aboutsaje" class="nav-main-item nav-item special-a">About Saje</a>
+      <a href="#brandingcomp" class="nav-main-item nav-item special-a">Branding Components</a>
+    </nav>
+  </header>
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>Interactive Elements</h2>
+
+    <section class="element">
+      <h3>In-text Link Design:</h3>
+      <p>
+        Here is a text. And here is an <a href="https://www.saje.com/ca/about-us/">in-text link </a>.
+      </p>
+      <h4 class="code">Code:</h4>
+      <code>&lt;p&gt;Here is a text. And here is an &lt;a href="url"&gt;in-text link &lt;/a&gt;.&lt;p&gt;</code>
+    </section>
+
+    <!-- Default Button styling section -->
+    <section class="element">
+      <h3>Navigation Link Design:</h3>
+      <a href="#image-element"></a>
+
+      <a class="button-nav" href="#">Default Button</a>
+
+      <h4 class="code">Code:</h4>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+    </section>
+
+    <section class="element">
+      <h3>Submit/Reset Buttons Design:</h3>
+      <input type="submit" value="submit button" />
+      <input type="reset" value="reset button" />
+
+      <h4 class="code">Code:</h4>
+      <code>&lt;input type="submit" value="submit button"&gt;</code>
+      <code>&lt;input type="reset" value="reset button"&gt;</code>
+    </section>
+
+    <section class="element">
+      <h3>Text Input Field with Label</h3>
+      <label for="input">Label:</label>
+      <input type="text" id="input" name="input" placeholder="Input something" />
+
+      <h4 class="code">Code:</h4>
+      <code>&lt;input type="text" id="input" name="input" placeholder="Input
+            something&gt;</code>
+    </section>
+
+    <section class="element">
+      <h3>Radio Button with Label</h3>
+
+      <input type="radio" id="radio-button" name="radio-button" value="radio-button" />
+      <label for="radio-button">Radio Button</label>
+
+      <h4 class="code">Code:</h4>
+      <code>&lt;input type="radio" name="radio-button" value="radio
+            button"&gt;</code>
+      <code>&lt;label for="radio-button"&gt; Radio Button &lt;/label&gt;</code>
+    </section>
+
+    <section id="image-element" class="element">
+      <h3>Image as a Link</h3>
+      <figure>
+        <a href="https://www.saje.com/ca/product/pocket-farmacy-mindful-edition-708892.html"><img src="img/html_image.png"
+            alt="image of a saje product: essential oils kit" class="product-list-img" /></a>
+        <figcaption class="product">
+          Essential oil kit ($76 value).
+          <a href="https://www.saje.com/ca/product/pocket-farmacy-mindful-edition-708892.html">See more</a>
+        </figcaption>
+      </figure>
+
+      <h4 class="code">Code:</h4>
+      <code>&lt;figure&gt;</code>
+      <code>&lt;a href="https://www.saje.com/ca/product/pocket-farmacy-mindful-edition-708892.html"&gt;&lt;img src="html_image.png" alt="image of a saje product: essential oils kit"&gt;&lt;/a&gt;</code>
+      <code>&lt;figcaption&gt;ESSENTIAL OIL KIT ($76 VALUE)&lt;/figcaption&gt;</code>
+      <code>&lt;/figure&gt;</code>
+    </section>
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+    <h2>Text Elements</h2>
+
+    <section class="element">
+      <!-- describe what each heading is for (page title, section title, etc -->
+      <h3>Headings Design:</h3>
+      <h1>Heading 1 (Page title) </h1>
+      <h2 class="special-headers">Heading 2 (Section heading)</h2>
+      <h3>Heading 3 (Subsection heading)</h3>
+      <h4>Heading 4 (Secondary subsection heading)</h4>
+
+
+      <code>&lt;h3 class="example"&gt;Heading 3&lt;/h3&gt;</code>
+      <code>&lt;h4&gt;Heading 4&lt;/h4&gt;</code>
+      <code>&lt;h5&gt;Heading 5&lt;/h5&gt;</code>
+      <code>&lt;h6&gt;Heading 6&lt;/h6&gt;</code>
+    </section>
+
+    <section class="element">
+      <h3>Paragraphs</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</code>
+    </section>
+
+    <section class="element">
+      <h3>Numbered Lists</h3>
+      <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ol>
+
+      <code>&lt;ol&gt;</code>
+      <code>&lt;li&gt;First item&lt;/li&gt;</code>
+      <code>&lt;li&gt;Second item&lt;/li&gt;</code>
+      <code>&lt;li&gt;Third item&lt;/li&gt;</code>
+      <code>&lt;/ol&gt;</code>
+    </section>
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+    <h2>Combined Elements</h2>
+
+    <section class="element">
+      <h3>Main Navigation</h3>
+      <!-- header for the website with the navigation links to most important parts of the website -->
+      <nav class="box">
+          <h1 class="website-header">Saje</h1>
+          <a class="nav-main-item nav-item block-one" href="#">Home</a>
+          <a class="nav-main-item nav-item block-two" href="#">Style Guide</a>
+          <a class="nav-main-item nav-item block-three" href="#">Checkout</a>
+          <a class="nav-main-item nav-item block-four" href="#">About Saje</a>
+      </nav>
+
+      <h4 class="code">Code:</h4>
+
+      <code>&lt;nav class="main-nav"&gt;</code>
+      <code>&lt;div class="nav-container"&gt;</code>
+      <code>&lt;a class="nav-link" href="#"&gt;&lt;Home&gt;&lt;/a&gt;</code>
+      <code>&lt;a class="nav-link" href="#"&gt;&lt;Essential Kits&gt;&lt;/a&gt;</code>
+      <code>&lt;a class="nav-link" href="#"&gt;&lt;Skincare&gt;&lt;/a&gt;</code>
+      <code>&lt;a class="nav-link" href="#"&gt;&lt;About Saje&gt;&lt;/a&gt;</code>
+      <code>&lt;/div&gt;</code>
+      <code>&lt;/nav&gt;</code>
+    </section>
+
+    <section class="element">
+      <h3>Product/Service Listing</h3>
+      <!-- 2 images used to showcase product types and listing example for the website -->
+
+      <!-- this div is for the main box that keeps each block in order depending on screen size -->
+      <div class="product-list">
+
+        <!-- flexbox for the image + text + button -->
+        <div class="product-list-item block1">
+          <h2 class="product special-headers">Headache Relief</h2>
+          <figure>
+            <a href="https://www.saje.com/ca/product/headache-relief-705695.html">
+              <img src="img/headache-relief-kit.png" alt="image of a saje product: REMEDY & INHALER KIT"
+                class="product-list-img" />
+            </a>
+            <figcaption class="textfont">
+              A kit of headache relief products with soothing essential oils, including an exclusive item. Includes
+              Peppermint Halo Remedy, Peppermint Halo Wand, and Stress Release Inhaler.
+              <a href="https://www.saje.com/ca/product/headache-relief-705695.html">See more</a>
+            </figcaption>
+          </figure>
+          <a class="button-nav" href="#">Add To Bag - 52.00$</a>
+        </div>
+
+        <!-- flexbox for the image + text + button -->
+        <div class="product-list-item block2">
+          <h2 class="product special-headers">Mind & Body Reset</h2>
+          <figure>
+            <a href="https://www.saje.com/ca/product/mind-and-body-reset-710891.html">
+              <img src="img/saje_trio.png" alt="image of a saje product: BALANCING ESSENTIAL OIL TRIO"
+                class="product-list-img" />
+            </a>
+            <figcaption class="textfont">
+              A portable trio of roll-ons that restore balance, renew spark, and refresh perspective. Includes Energy 6
+              ml
+              Roll-On, Super Detox 6 ml Roll-On, and Reflection 6 ml Roll-On.
+              <a href="https://www.saje.com/ca/product/mind-and-body-reset-710891.html">See more</a>
+            </figcaption>
+          </figure>
+          <a class="button-nav" href="#">Add To Bag - 36.00$</a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="element">
+      <h3 class="payment-form">Payment Form</h3>
+      <h2 class="product">Customer Information</h2>
+
+      <form id="paymentForm">
+        <label for="name">Name</label><br />
+        <input type="text" id="name" name="name" placeholder="Type here" /><br />
+
+        <label for="last-name">Last Name</label><br />
+        <input type="text" id="last-name" name="last-name" placeholder="Type here" /><br />
+
+        <label for="email">Email Address</label><br />
+        <input type="email" id="email" name="email" placeholder="Type here" /><br />
+
+        <label for="phone">Phone Number</label><br />
+        <input type="tel" id="phone" name="phone" placeholder="Type here" /><br />
+
+        <label>Choose shipping type:</label><br />
+        <input type="radio" id="express-shipping" name="shipping" value="express-shipping" />
+        <label for="express-shipping">Express Shipping</label><br />
+        <input type="radio" id="normal-shipping" name="shipping" value="normal-shipping" />
+        <label for="normal-shipping">Normal Shipping</label><br />
+        <input type="submit" value="SUBMIT" />
+      </form>
+    </section>
+
+    <script>
+      document.getElementById("paymentForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+      });
+    </script>
+
+    <!-- // link to where i learnt about this: https://www.w3schools.com/html/html_scripts.asp
+      // second link about where i got my knowledge: https://www.w3schools.com/js/js_htmldom_eventlistener.asp -->
+
+    <h4 class="code">Code:</h4>
+
+    <code>
+            &lt;h2 class="product"&gt;Customer Information&lt;/h2&gt;<br />
+            <br />
+            &lt;label for="name"&gt;Name&lt;/label&gt;&lt;br&gt;<br />
+            &lt;input type="text" id="name" name="name" placeholder="Type here"&gt;&lt;br&gt;<br />
+            <br />
+            &lt;label for="last-name"&gt;Last Name&lt;/label&gt;&lt;br&gt;<br />
+            &lt;input type="text" id="last-name" name="last-name" placeholder="Type here"&gt;&lt;br&gt;<br />
+            <br />
+            &lt;label for="email"&gt;Email Address&lt;/label&gt;&lt;br&gt;<br />
+            &lt;input type="email" id="email" name="email" placeholder="Type here"&gt;&lt;br&gt;<br />
+            <br />
+            &lt;label for="phone"&gt;Phone Number&lt;/label&gt;&lt;br&gt;<br />
+            &lt;input type="tel" id="phone" name="phone" placeholder="Type here"&gt;&lt;br&gt;<br />
+            <br />
+            &lt;label&gt;Choose shipping type:&lt;/label&gt;&lt;br&gt;<br />
+            &lt;input type="radio" id="express-shipping" name="shipping" value="express-shipping"&gt;<br />
+            &lt;label for="express-shipping"&gt;Express Shipping&lt;/label&gt;&lt;br&gt;<br />
+            &lt;input type="radio" id="normal-shipping" name="shipping" value="normal-shipping"&gt;<br />
+            &lt;label for="normal-shipping"&gt;Normal Shipping&lt;/label&gt;&lt;br&gt;<br />
+            <br />
+            &lt;input type="submit" value="SUBMIT"&gt;<br />
+          </code>
+
+  </section>
+
+  <section class="element">
+    <h3>Checkout Cart</h3>
+    <div class="checkout-cart-payment checkout-block1">
+      <h2 class="product">Checkout</h2>
+      <h3>Payment information</h3>
+      <h4>Secure payment form</h4>
+      <h4>Card type:</h4>
+      <input type="radio" id="visa-card" name="card-type" value="visa-card" />
+      <label for="visa-card">Visa</label>
+      <input type="radio" id="mastercard" name="card-type" value="mastercard" />
+      <label for="mastercard">Mastercard</label>
+
+      <label for="name">Name</label><br />
+      <input type="text" id="name" name="name" placeholder="Full Name" /><br />
+
+      <label for="card-type">Card Number</label><br />
+      <input type="number" id="card" name="card" placeholder="XXXXXXXXX" /><br />
+
+      <label for="expiry-date">Expiry Date</label><br />
+      <input type="expiry-date" id="expiry-date" name="expiry-date" placeholder="MM/YY" /><br />
+
+      <label for="code">Code</label><br />
+      <input type="text" id="name" name="name" placeholder="CVV" /><br />
+    </div>
+
+    <div class="cart-summary checkout-block2">
+      <table>
+        <tr>
+          <th class="left-align">Product Name</th>
+          <th class="left-align">Cost</th>
+        </tr>
+        <tr>
+          <td>Headache Relief</td>
+          <td>$52.00</td>
+        </tr>
+        <tr>
+          <td>Mind and Body Reset</td>
+          <td>$36.00</td>
+        </tr>
+        <tr>
+          <td><br><br>Subtotal</td>
+          <td><br><br>$88.00</td>
+        </tr>
+        <tr>
+          <td>Shipping</td>
+          <td>$10.00</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>$11.00</td>
+        </tr>
+        <tr>
+          <td><br><br>Total</td>
+          <td><br><br>$109.76</td>
+        </tr>
+      </table>
+
+      <input type="submit" value="CONFIRM ORDER" />
+    </div>
+
+
+  </section>
+
+  <!-- // COMBINED ELEMENTS SECTION -->
+
+  <section class="element" id="aboutsaje">
+    <h2>Brand information</h2>
+    <h3>What does the company do, or offer?</h3>
+    <p>
+      Discover Saje, your ultimate companion for a wellness-enhanced
+      lifestyle. Our exquisite range of products is meticulously crafted to
+      uplift your well-being, addressing everyday health concerns with the
+      power of nature. Embrace the allure of 100% natural formulations,
+      carefully tested and proven to be remarkably effective. Elevate your
+      self-care journey with Saje, where every product is a testament to our
+      unwavering commitment to your holistic wellness.
+    </p>
+    <h3 class="product">
+      Who is the company to potential customers? (as a person)
+    </h3>
+    <p>
+      Saje is like a trusted wellness guru, guiding customers on their journey
+      to a more holistic and balanced lifestyle. They are a reliable source of
+      natural remedies and self-care products, prioritizing the well-being of
+      their customers.
+    </p>
+    <h3 class="product">
+      Why might this company entice someone to purchase a product or service
+    </h3>
+    <p>
+      Saje's commitment to using high-quality, natural ingredients and their
+      focus on promoting well-being make them an appealing choice for
+      individuals seeking healthier alternatives. Their products are designed
+      to enhance personal wellness, create a soothing environment, and offer
+      natural remedies, enticing customers who value natural and sustainable
+      living
+    </p>
+    <h3>Customer Identity:</h3>
+    <ol>
+      <li>Wellness Enthusiasts.</li>
+      <li>Eco-conscious.</li>
+      <li>Saje customers are on a journey to find balance in their lives.</li>
+      <li>
+        Mindful of aesthetics, Saje customers appreciate products that blend
+        natural beauty with a sense of tranquility.
+      </li>
+    </ol>
+  </section>
+
+  <!-- // ABOUT SAJE SECTION -->
+
+  <section id="brandingcomp">
+    <h2>Design Elements</h2>
+    <section class="element">
+      <h3 class="product">Fonts:</h3>
+      <h1 class="newfont">Font (Page title)</h1>
+      <p class="newfont">
+        regular and <b>bold </b>for headings. Link to
+        <a href="https://fonts.google.com/specimen/Montserrat">Google Fonts</a>
+      </p>
+      <h1 class="textfont">Font (Text)</h1>
+      <p class="textfont">
+        regular, <i>italized</i>, <b>bold</b> for text. Link to
+        <a href="https://fonts.google.com/specimen/Prompt">Google Fonts</a>
+      </p>
+      <h3 class="product">Colour Palettes:</h3>
+      <div class="color-rectangles color-box">
+        <div class="color-rectangle color-block1" style="background-color: #b9d5bc">
+          <p class="textfont" style="color: darkgreen">#b9d5bc</p>
+          <p class="textfont" style="color: darkgreen">Input box and label</p>
+        </div>
+        <div class="color-rectangle color-block2" style="background-color: #c5dcc2">
+          <p class="textfont" style="color: darkgreen">#c5dcc2</p>
+          <p class="textfont" style="color: darkgreen">Background and hover button color</p>
+        </div>
+        <div class="color-rectangle color-block3" style="background-color: #91b38e">
+          <p class="textfont" style="color: darkgreen">#91b38e</p>
+          <p class="textfont" style="color: darkgreen">Button color and navbar element</p>
+        </div>
+        <div class="color-rectangle color-block4" style="background-color: #5a855f">
+          <p class="textfont" style="color: darkgreen">#5a855f</p>
+          <p class="textfont" style="color: darkgreen">Navbar color</p>
+        </div>
+        <div class="color-rectangle color-block5" style="background-color: #d3ecdc">
+          <p class="textfont" style="color: darkgreen">#d3ecdc</p>
+          <p class="textfont" style="color: darkgreen">Link text and input hover color</p>
+        </div>
+        <div class="color-rectangle color-block6" style="background-color: black">
+          <p class="textfont" style="color: darkgreen">#000000</p>
+          <p class="textfont" style="color: darkgreen">Text color</p>
+        </div>
+        <div class="color-rectangle color-block7" style="background-color: white">
+          <p class="textfont" style="color: darkgreen">#ffffff</p>
+          <p class="textfont" style="color: darkgreen">Link text original color</p>
+        </div>
+        <div class="color-rectangle color-block8" style="background-color: turquoise">
+          <p class="textfont" style="color: darkgreen">#40e0d0</p>
+          <p class="textfont" style="color: darkgreen">Image border for jpeg</p>
+        </div>
+      </div>
+
+
+      <!-- a grid made for class="art-direction-img" in order to add more hierarchy to the website -->
+      <h3>Art Direction:</h3>
+      <figure>
+        <img src="img/website_inspo.png"
+          alt="website layout wiht different shades of green and a groovy typefont that says 'Saje'."
+          class="art-direction-img" />
+        <!-- my own image I created in figma -->
+        <img src="img/saje_art2.jpeg" alt="image of an art piece with a girl doing yoga" class="art-direction-img" />
+        <img src="img/website_inspo2.png"
+          alt="website layout wiht different shades of green and example of how buttons and images react to hover states"
+          class="art-direction-img" />
+        <!-- my own image I created in figma -->
+        <img src="img/saje_product2.jpeg" alt="image of a saje product" class="art-direction-img" />
+        <img src="img/saje_product3.jpeg" alt="image of a saje product" class="art-direction-img" />
+        <img src="img/inspo.jpeg" alt="image of a website for matcha making tips" class="art-direction-img" />
+
+      </figure>
+    </section>
+  </section>
+
+  <!-- CITATIONS HERE -->
+  <section id="citations">
+    <h2>Citations</h2>
+    <div class="citations-box">
+      <ul>
+
+
+        <li>
+          Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>.
+          Retrieved from
+          <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans
+          </a>
+        </li>
+
+        <li>
+          Julieta U., Sol M., Juan P., Jacques B. Designer. 2017. <strong>Monteserrat [Font]</strong>
+          Retrieved from
+          <a href="https://fonts.google.com/specimen/Montserrat">https://fonts.google.com/specimen/Montserrat</a>
+        </li>
+
+
+        <li>
+          Cadson Demak. Designer. 2008. <strong>Prompt [Font]</strong>.Retrieved
+          from <a
+            href="https://fonts.google.com/specimen/Prompt/about">https://fonts.google.com/specimen/Prompt/about</a>.
+        </li>
+
+        <li>
+          Bindayak. <strong>mint green 3 Color Palette [Color Palette]</strong>. Retrieved
+          from <a
+            href="https://www.color-hex.com/color-palette/109566">https://www.color-hex.com/color-palette/109566</a>.
+        </li>
+
+        <li>
+          Maikova. Artist. <strong>Woman with sun and moon meditating in lotus position [Image]</strong>. Retrieved
+          from <a
+            href="https://www.freepik.com/premium-vector/woman-with-sun-moon-meditating-lotus-position_9322973.htm?epik=dj0yJnU9TjlKVktNNE5IV2Vjd0haZmhnLUoyb0RURTRpczA5QmwmcD0wJm49OEVHNjc1X2tlaGZsZGhvQ1dwMFNiQSZ0PUFBQUFBR1NELTdv">https://www.pinterest.com/pin/woman-with-sun-and-moon-meditating-in-lo--797277940285828502/</a>.
+        </li>
+
+        <li>
+          Samantha Grayer. Writer. <strong>Saje Natural Wellness [Image]</strong>. Retrieved
+          from <a
+            href="https://www.letmeseethelabel.com/household/sajenaturalwellness">https://www.letmeseethelabel.com/household/sajenaturalwellness</a>.
+        </li>
+
+
+        <li>
+          Sujay Pawar. Researcher. (2022). <strong>The 14 Most Beautiful and Unique Yoga Websites in 2023
+            [Image]</strong>. Retrieved
+          from <a href="https://wpastra.com/resources/yoga-websites/">https://wpastra.com/resources/yoga-websites/</a>.
+        </li>
+
+        <li>
+          Saje. Welness Company. Headache Relief [Image]. Retrieved
+          from <a
+            href="https://www.saje.com/ca/product/headache-relief-705695.html">https://www.saje.com/ca/product/headache-relief-705695.html</a>
+        </li>
+
+        <li>
+          Saje. Welness Company. Pocket Pharmacy|Mindful Edition [Image]. Retrieved
+          from <a
+            href="https://www.saje.com/ca/product/pocket-farmacy-mindful-edition-708892.html">https://www.saje.com/ca/product/pocket-farmacy-mindful-edition-708892.html</a>
+        </li>
+
+        <li>
+          Saje. Welness Company. Pocket Pharmacy|Mindful Edition [Image]. Retrieved
+          from <a
+            href="https://www.saje.com/ca/product/pocket-farmacy-mindful-edition-708892.html">https://www.saje.com/ca/product/pocket-farmacy-mindful-edition-708892.html</a>
+        </li>
+
+
+      </ul>
+    </div>
+  </section>
+</body>
+
+</html>
