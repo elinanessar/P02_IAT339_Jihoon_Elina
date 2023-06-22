@@ -22,10 +22,10 @@ body {
 }
 .nav-main-item {
   display: inline-block;
-  background-color: #638b68;
+  /* background-color: #638b68; */
   color: white;
   text-decoration: none;
-  padding: 0.15rem 0.15rem;
+  padding: 0.25rem 0.25rem;
   transition: background-color 0.5s ease-out;
 }
 .cart-summary{

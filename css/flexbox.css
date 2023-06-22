@@ -3,13 +3,20 @@
 }
 
 .box {
-  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: flex-end;
   color: rgb(3, 3, 3);
   background-color: #5a855f;
-  padding: 10px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+}
+
+.website-header{
+  margin-left: 20px;
+  flex: auto;
 }
 
 .product-list{
@@ -41,20 +48,20 @@
 }
 
 .nav-item {
-  margin-right: 10px; /* Increase margin between items */
+  margin-right: 20px; /* Increase margin between items */
   margin-bottom: 5px; /* Increase margin between rows */
+  align-self:center;
 }
 
 .nav-item a {
   display: inline-block;
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
   text-decoration: none;
   color: white;
 }
 
 .nav-item:hover {
   color: rgb(197, 221, 204);
-  text-decoration: underline;
 }
 
 .nav-item:hover a {
