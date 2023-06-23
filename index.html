@@ -2,26 +2,95 @@
 <!-- links to all images are put in the code below -->
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Saje</title>
-        <link href="css/main.css" rel="stylesheet" />
-        <link href="css/normalize.css" rel="stylesheet" />
-        <link href="css/fonts.css" rel="stylesheet" />
-        <link href="css/flexbox.css" rel="stylesheet" />
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saje</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/flexbox.css" rel="stylesheet" />
+</head>
 
-    <body>
-        <header>
-            <nav class="box">
-                <h1 class="website-header">SAJE</h1>
-                <a href="http://127.0.0.1:5500/index.html" class="nav-main-item nav-item special-a">home</a>
-                <a href="http://127.0.0.1:5500/style-guide.html" class="nav-main-item nav-item special-a">style guide</a>
-                <a href="http://127.0.0.1:5500/checkout.html" class="nav-main-item nav-item special-a">checkout</a>
-                <a href="http://127.0.0.1:5500/about-saje.html" class="nav-main-item nav-item special-a">about</a>
-            </nav>
-        </header>
-    </body>
+<body>
+    <header>
+        <nav class="box nav-box-styling">
+            <h1 class="website-header">Saje</h1>
+            <a href="http://127.0.0.1:5500/index.html" class="nav-main-item nav-item block-one">Home</a>
+            <a href="http://127.0.0.1:5500/style-guide.html" class="nav-main-item nav-item block-two">Style Guide</a>
+            <a href="http://127.0.0.1:5500/checkout.html" class="nav-main-item nav-item block-three">Checkout</a>
+            <a href="http://127.0.0.1:5500/about-saje.html" class="nav-main-item nav-item block-four">About</a>
+        </nav>
+    </header>
+
+    <div class="container"> 
+
+
+        <!-- NEED TO MAKE CHANGES TO THE BANNER CODE, SO NOT ADDING IT JUST YET -->
+
+
+        
+        <!-- this class separates the header from the rest of the body
+
+        <section id="banner_link">
+            <figure>
+                <img src="img/saje_banner_1.jpeg" alt="a blonde woman doing yoga at the beach, while standing on a rock with the cyan blue water in the background" class="banner-img"/>
+                <figcaption class="product">
+                    <b>Healthy Habits.</b>
+                    <p>We believe holistic wellness is the result of small, impactful choices made every day. That’s why we offer all-natural solutions that seamlessly integrate into your life and a community to support you in feeling your best, every step of the way.</p>
+                </figcaption>
+            </figure>
+        </section> -->
+
+        <section id="product-listing">
+            <h3>Product Listing</h3>
+            <div class="product-list">
+
+                <!-- flexbox for the image + text + button -->
+                <div class="product-list-item block1">
+                    <h2 class="product special-headers">Headache Relief</h2>
+                    <figure>
+                        <a href="https://www.saje.com/ca/product/headache-relief-705695.html">
+                        <img src="img/headache-relief-kit.png" alt="image of a saje product: REMEDY & INHALER KIT"
+                            class="product-list-img" />
+                        </a>
+                        <figcaption class="textfont">
+                        A kit of headache relief products with soothing essential oils, including an exclusive item. Includes
+                        Peppermint Halo Remedy, Peppermint Halo Wand, and Stress Release Inhaler.
+                        <a href="https://www.saje.com/ca/product/headache-relief-705695.html">See more</a>
+                        </figcaption>
+                    </figure>
+                    <a class="button-nav" href="#">Add To Bag - 52.00$</a>
+                </div>
+
+                <!-- flexbox for the image + text + button -->
+                <div class="product-list-item block2">
+                    <h2 class="product special-headers">Mind & Body Reset</h2>
+                    <figure>
+                        <a href="https://www.saje.com/ca/product/mind-and-body-reset-710891.html">
+                        <img src="img/saje_trio.png" alt="image of a saje product: BALANCING ESSENTIAL OIL TRIO"
+                            class="product-list-img" />
+                        </a>
+                        <figcaption class="textfont">
+                        A portable trio of roll-ons that restore balance, renew spark, and refresh perspective. Includes Energy 6
+                        ml
+                        Roll-On, Super Detox 6 ml Roll-On, and Reflection 6 ml Roll-On.
+                        <a href="https://www.saje.com/ca/product/mind-and-body-reset-710891.html">See more</a>
+                        </figcaption>
+                    </figure>
+                    <a class="button-nav" href="#">Add To Bag - 36.00$</a>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <nav class="footer-box">
+            <a href="contact-us.html" class="nav-main-item nav-item">Contact us</a>
+        </nav>
+    </footer>
+</body>
 
 </html>

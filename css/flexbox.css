@@ -8,15 +8,30 @@
   justify-content: flex-end;
   color: rgb(3, 3, 3);
   background-color: #5a855f;
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
 }
 
 .website-header{
   margin-left: 20px;
   flex: auto;
+  color:aliceblue;
+}
+
+.footer-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #5a855f;
+  position:absolute;
+  /* bottom:0; */
+  left:0;
+  width:100%;
+}
+
+.nav-box-styling{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
 }
 
 .product-list{
@@ -55,7 +70,6 @@
 
 .nav-item a {
   display: inline-block;
-  /* padding: 10px 15px; */
   text-decoration: none;
   color: white;
 }
@@ -63,12 +77,6 @@
 .nav-item:hover {
   color: rgb(197, 221, 204);
 }
-
-.nav-item:hover a {
-  color: rgb(236, 159, 145);
-}
-
-
 
 @media screen and (min-width: 40em){
     .block1{
