@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- links to all images are put in the code below -->
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Saje</title>
+        <link href="css/main.css" rel="stylesheet" />
+        <link href="css/normalize.css" rel="stylesheet" />
+        <link href="css/fonts.css" rel="stylesheet" />
+        <link href="css/flexbox.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header>
+            <h3>Checkout Cart</h3>
+        </header>
+
+        <div class="checkout-cart-payment checkout-block1">
+            <h2 class="product">Checkout</h2>
+            <h3>Payment information</h3>
+            <h4>Secure payment form</h4>
+            <h4>Card type:</h4>
+            <input type="radio" id="visa-card" name="card-type" value="visa-card" />
+            <label for="visa-card">Visa</label>
+            <input type="radio" id="mastercard" name="card-type" value="mastercard" />
+            <label for="mastercard">Mastercard</label>
+      
+            <label for="name">Name</label><br />
+            <input type="text" id="name" name="name" placeholder="Full Name" /><br />
+      
+            <label for="card-type">Card Number</label><br />
+            <input type="number" id="card" name="card" placeholder="XXXXXXXXX" /><br />
+      
+            <label for="expiry-date">Expiry Date</label><br />
+            <input type="expiry-date" id="expiry-date" name="expiry-date" placeholder="MM/YY" /><br />
+      
+            <label for="code">Code</label><br />
+            <input type="text" id="name" name="name" placeholder="CVV" /><br />
+          </div>
+
+        <div class="cart-summary checkout-block2">
+            <table>
+              <tr>
+                <th class="left-align">Product Name</th>
+                <th class="left-align">Cost</th>
+              </tr>
+              <tr>
+                <td>Headache Relief</td>
+                <td>$52.00</td>
+              </tr>
+              <tr>
+                <td>Mind and Body Reset</td>
+                <td>$36.00</td>
+              </tr>
+              <tr>
+                <td><br><br>Subtotal</td>
+                <td><br><br>$88.00</td>
+              </tr>
+              <tr>
+                <td>Shipping</td>
+                <td>$10.00</td>
+              </tr>
+              <tr>
+                <td>Tax</td>
+                <td>$11.00</td>
+              </tr>
+              <tr>
+                <td><br><br>Total</td>
+                <td><br><br>$109.76</td>
+              </tr>
+            </table>
+      
+            <input type="submit" value="CONFIRM ORDER" />
+          </div>
+    </body>
+
+</html>
