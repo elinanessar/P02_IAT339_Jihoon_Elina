@@ -182,10 +182,39 @@ img:not(.product-list-img, .banner-img, .clean-img) {
   height: 400px; /* Set the desired height */
 }
 
-.clean-img{
-width: 50rem;
-
+.product-list {
+  display: flex;
 }
+
+.product {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.text-container {
+  flex: 1;
+}
+
+.clean-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for smaller window width */
+@media (max-width: 60em) {
+  .product {
+    flex-direction: column;
+  }
+
+  .text-container {
+    margin-top: 20px; /* Adjust spacing between image and text when stacked */
+  }
+}
+
 
 img:hover,img:focus,img:active:not(.clean-img) {
   /* border: 1.5px solid orangered; */
