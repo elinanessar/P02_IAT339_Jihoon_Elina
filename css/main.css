@@ -162,7 +162,7 @@ a:active {
   color: rgb(128, 167, 102);
 }
 
-img:not(.product-list-img, .banner-img) {
+img:not(.product-list-img, .banner-img, .clean-img) {
   width: 400px; /* Set the desired width */
   height: 400px; /* Set the desired height */
   border-radius: 1rem; /*put this for all buttons and navbar*/
@@ -178,7 +178,12 @@ img:not(.product-list-img, .banner-img) {
   height: 400px; /* Set the desired height */
 }
 
-img:hover,img:focus,img:active {
+.clean-img{
+width: 50rem;
+
+}
+
+img:hover,img:focus,img:active:not(.clean-img) {
   /* border: 1.5px solid orangered; */
   filter: drop-shadow(5px 5px 10px orangered);
 }
@@ -246,4 +251,9 @@ img:hover,img:focus,img:active {
     max-width: 200px;
   }
 
+}
+
+.text-align-center{
+  text-align:center;
+  max-width:100%
 }
