@@ -16,6 +16,36 @@
   color:aliceblue;
 }
 
+.nav-box-styling {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+} 
+/* .box {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  color: rgb(3, 3, 3);
+  background-color: #5a855f;
+  padding: 0 20px; 
+}
+
+.website-header {
+  flex: 1; 
+  color: aliceblue;
+} 
+
+.nav-box-styling{
+  position:sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  z-index: 999;
+} */
+
 .footer-box{
   display: flex;
   flex-wrap: wrap;
@@ -23,13 +53,6 @@
   background-color: #5a855f;
   position:absolute;
   /* bottom:0; */
-  left:0;
-  width:100%;
-}
-
-.nav-box-styling{
-  position:absolute;
-  top:0;
   left:0;
   width:100%;
 }
