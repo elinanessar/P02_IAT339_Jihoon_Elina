@@ -5,9 +5,9 @@
 body {
   font-family: "NeueHaas", Arial;
   font-style: normal;
-  margin: 1rem;
+  margin: 0.5rem;
   font-size: 1em;
-  padding: 2rem;
+  padding: 1rem;
   background-color:white;
   line-height: 1.5;
   color:#175700;
@@ -18,7 +18,7 @@ body {
 }
 
 .element {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   border-top-width: 0.15rem;
   border-top-style: dashed;
   border-top-color: black;
@@ -61,12 +61,12 @@ body {
 }
 
 h2:not(.special-headers) {
-  margin-top: 6rem;
+  margin-top: 1rem;
   font-family: "Prompt";
 }
 .product {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-style:normal;
 }
 
@@ -77,17 +77,17 @@ h2:not(.special-headers) {
 h3 {
   font-family: "Prompt";
   font-style: italic;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 h3.example {
   font-family: "Prompt";
   font-style: normal;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 h4 {
   font-family: "Prompt";
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.2rem;
 }
 .code {
   font-weight: normal;
@@ -213,7 +213,7 @@ img:not(.product-list-img, .banner-img, .clean-img) {
 }
 
 /* Media query for smaller window width */
-@media (max-width: 60em) {
+@media (max-width: 70em) {
   .product {
     flex-direction: column;
   }
@@ -226,7 +226,7 @@ img:not(.product-list-img, .banner-img, .clean-img) {
 
 img:hover,img:focus,img:active:not(.clean-img) {
   /* border: 1.5px solid orangered; */
-  filter: drop-shadow(5px 5px 10px orangered);
+  filter: drop-shadow(5px 5px 10px #496b4d);
 }
 
 /* Styling for the navigation button */
