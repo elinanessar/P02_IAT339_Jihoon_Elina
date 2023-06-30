@@ -15,6 +15,7 @@ body {
 .textfont {
   font-family: "NeueHaas";
   font-style: lighter;
+  color: white;
 }
 
 .element {
@@ -112,7 +113,7 @@ ul li {
   margin-left: 1rem;
 }
 
-ul li:not(:last-child)::after {
+ul li:not(:last-child, .citations-list)::after {
   content: "|";
   margin: 0 0.5rem;
 }
@@ -125,8 +126,19 @@ ul li:not(:last-child)::after {
   margin-right: 30px;
 }
 
-h2:not(.special-headers) {
+h2:not(.section-heading, .special-headers) {
   margin-top: 6rem;
+}
+.special-headers{
+  color: white;
+}
+.see-more-link{
+  color:#638b68;
+  font-weight: bold;
+  /* background-color: #638b68; */
+  text-decoration: none;
+  /* border-radius: 10px;
+  padding: 0.2rem; */
 }
 .product {
   margin-top: 1rem;
@@ -222,7 +234,7 @@ label:hover,label:focus,label:active {
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
-a {
+a:not(.see-more-link, .nav-item) {
   color: white;
   text-decoration: none;
 }
@@ -301,7 +313,7 @@ img:hover:not(.banner-img),img:focus:not(.banner-img),img:active:not(.clean-img,
   display: inline-block;
   padding: 0.5rem;
   color: white;
-  background-color: #175700;
+  background-color: #227a02;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -372,5 +384,5 @@ table{
 
 .text-align-center{
   text-align:center;
-  max-width:100%
+  max-width:100%;
 }
