@@ -1,17 +1,3 @@
-/* @font-face{
-    font-family: "Quan";
-    font-weight: normal;
-    font-style: normal;
-    src: url(../fonts/Quan.ttf);
-}
-
-@font-face{
-    font-family: "Quan";
-    font-weight: normal;
-    font-style: normal;
-    src: url(../fonts/Quan-Bold.ttf);
-} */
-/* Montserrat-VariableFont_wght */
 @font-face{
     font-family: "Monteserrat";
     font-weight: normal;
@@ -19,40 +5,40 @@
     src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
 @font-face{
-    font-family: "Monteserrat";
-    font-weight: bold;
-    font-style: normal;
-    src: url(../fonts/Montserrat-Bold.ttf);
-}
-@font-face{
-    font-family: "Prompt";
+    font-family: "NeueHaas";
     font-weight: normal;
     font-style: normal;
-    src: url(../fonts/Prompt-Light.ttf);
+    src: url(../fonts/NeueHaasDisplayBlack.ttf);
 }
 @font-face{
-    font-family: "Prompt";
+    font-family: "NeueHaas";
     font-weight: normal;
     font-style: italic;
-    src: url(../fonts/Prompt-LightItalic.ttf);
+    src: url(../fonts/NeueHaasDisplayBlackItalic.ttf);
 }
 @font-face{
-    font-family: "Prompt";
+    font-family: "NeueHaas";
     font-weight: bold;
     font-style: normal;
-    src: url(../fonts/Prompt-Medium.ttf);
+    src: url(../fonts/NeueHaasDisplayMediu.ttf);
+}
+@font-face{
+    font-family: "NeueHaas";
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/NeueHaasDisplayBoldItalic.ttf);
 }
 
 @font-face{
-    font-family: "Vintage";
-    font-weight: normal;
-    font-style: normal;
-    src: url(../fonts/Vintage\ Signature.otf);
+    font-family: "NeueHaas";
+    font-weight: lighter;
+    font-style: italic;
+    src: url(../fonts/NeueHaasDisplayLightItalic.ttf);
 }
 
 @font-face{
-    font-family: "Charley";
-    font-weight: normal;
+    font-family: "NeueHaas";
+    font-weight: lighter;
     font-style: normal;
-    src: url(../fonts/CHARLEY.otf);
+    src: url(../fonts/NeueHaasDisplayLight.ttf);
 }

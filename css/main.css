@@ -3,15 +3,18 @@
   Default styling for the style guide 
 */
 body {
-  font-family: "Monteserrat", Arial;
+  font-family: "NeueHaas", Arial;
+  font-style: normal;
   margin: 1rem;
   font-size: 1em;
   padding: 2rem;
-  background-color: rgb(197, 221, 204);
+  background-color:white;
   line-height: 1.5;
+  color:#175700;
 }
 .textfont {
-  font-family: "Prompt";
+  font-family: "NeueHaas";
+  font-style: lighter;
 }
 
 .element {
@@ -23,7 +26,7 @@ body {
 
 .nav-main-item {
   display: inline-block;
-  color: white;
+  color: #175700;
   text-decoration: none;
   padding: 0.25rem 0.25rem;
   transition: background-color 0.5s ease-out;
@@ -32,7 +35,7 @@ body {
 .cart-summary{
   display: inline-block;
   background-color: #638b68;
-  color: white;
+  color: #175700;
   text-decoration: none;
   padding: 1rem 1rem;
   transition: background-color 0.5s ease-out;
@@ -131,7 +134,7 @@ input {
 }
 
 input:hover,input:focus,input:active {
-  color: white;
+  color: #175700;
   background-color: #d3ecdc;
   border: 1px solid #d3ecdc;
 }
@@ -141,10 +144,10 @@ label {
 }
 
 label:hover,label:focus,label:active {
-  color: #91b38e;
+  color: #175700;
 }
 ::placeholder {
-  color: white;
+  color: #175700;
   opacity: 1;
 }
 
@@ -153,7 +156,7 @@ label:hover,label:focus,label:active {
   INTERACTIVE ELEMENTS -------------------
 */
 a {
-  color: white;
+  color: #175700;
   text-decoration: none;
 }
 a:hover,
@@ -169,13 +172,18 @@ img:not(.product-list-img, .banner-img, .clean-img) {
   border: 4px solid turquoise;
 }
 
-/* .banner-img{
-  left:0;
-  top:0;
+.banner-img{
   border: 4px solid #496b4d;
   width:100%;
-  height:100%;
-} */
+} 
+
+.banner-section{
+  margin:0;
+}
+
+.banner-figure{
+  margin:0;
+}
 
 .product-list-img{
   width: 400px; /* Set the desired width */
@@ -225,7 +233,7 @@ img:hover,img:focus,img:active:not(.clean-img) {
 .button-nav {
   display: inline-block;
   padding: 0.5rem;
-  color: white;
+  color: #175700;
   background-color: #91b38e;
   text-decoration: none;
   transition-property: background-color;
