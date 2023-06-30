@@ -366,7 +366,7 @@ table{
   .product-list-item{
     max-width: 300px;
   }
-  img{
+  img:not(.banner-img){
     max-width: 200px;
     max-height: 200px;
   }
@@ -380,10 +380,39 @@ table{
     max-width: 200px;
   }
 
+  .bestseller-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bestseller-block .product-info {
+    margin-top: 1em;
+  }
+
+  .block-zero{
+    order:1;
+  }
+  .block-one{
+    order:2;
+  }
+  .block-two{
+    order:3;
+  }
+  .block-three{
+    order:4;
+  }
+  .block-four{
+    order:5;
+  }
+  .block-five{
+    order:6;
+  }
+
 }
 
 .text-align-center{
   text-align:center;
   max-width:100%;
-  
+
 }
