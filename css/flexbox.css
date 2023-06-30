@@ -8,7 +8,7 @@
   justify-content: flex-end;
   color: rgb(3, 3, 3);
   background-color: white;
-  border: 3px solid #496b4d;
+  /* border: 3px solid #496b4d; */
 }
 
 .website-header {
@@ -16,7 +16,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin-left: 20rem;
+  color:#175700;
 }
 
 .nav-box-styling {
