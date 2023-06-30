@@ -270,6 +270,10 @@ img:hover,img:focus,img:active:not(.clean-img) {
   text-align: left;
 }
 
+table{
+  color:white;
+}
+
 .cart-summary table tr td:first-child {
   padding-right: 1rem;
 }
