@@ -274,6 +274,10 @@ img:hover:not(.banner-img),img:focus:not(.banner-img),img:active:not(.clean-img,
   text-align: left;
 }
 
+table{
+  color:white;
+}
+
 .cart-summary table tr td:first-child {
   padding-right: 1rem;
 }
