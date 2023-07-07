@@ -275,6 +275,20 @@ img:not(.product-list-img, .banner-img, .clean-img, .explore-list-img) {
 
 .banner-figure{
   margin:0;
+  position: relative;
+  display: inline-block;
+}
+.banner-caption {
+  position: absolute; /* Position the caption relative to the parent figure */
+  top: 0; /* Position the caption at the top */
+  left: 0; /* Position the caption at the left */
+  /*background-color: rgba(18, 88, 134, 0.1); /* Add a semi-transparent background to the caption */
+  /* border: 1px solid transparent; */
+  color: white; /* Set the color of the caption text */
+  padding: 20px; /* Add padding to the caption */
+  width: 100%; /* Set the width to match the parent figure */
+  font-size:2rem;
+  font-weight: bold;
 }
 
 .product-list-img{
@@ -450,8 +464,13 @@ table{
     font-size: 1rem;
   }
 
-  p{
+  p:not(.banner-caption){
     font-size: 0.9rem;
+  }
+
+  .banner-caption{
+    font-size:1.7rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
   .website-header{
@@ -517,6 +536,9 @@ table{
     max-width: 200px;
     max-height: 250px;
   }
+  .banner-caption{
+    font-size:1.4rem;
+  }
   
 }
 
@@ -548,6 +570,10 @@ table{
 
   .footer-box{
     font-size: 0.7rem;
+  }
+
+  .banner-caption{
+    font-size:0.9rem;
   }
 
 }
