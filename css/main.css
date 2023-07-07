@@ -520,13 +520,16 @@ table{
   }
 
   div.explore-box h3{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 
   div.explore-box p{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 
+  .footer-box{
+    font-size: 0.7rem;
+  }
 
 }
 
