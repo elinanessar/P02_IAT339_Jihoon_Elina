@@ -126,8 +126,13 @@ ul li:not(:last-child, .citations-list)::after {
   margin-right: 30px;
 }
 
+h1{
+  font-size: 5em;
+}
+
 h2:not(.section-heading, .special-headers) {
-  margin-top: 6rem;
+  margin-top: 3rem;
+  font-size: 2.5em;
 }
 .special-headers{
   color: white;
@@ -150,16 +155,11 @@ h2:not(.section-heading, .special-headers) {
   font-size: 0.5rem;
 }
 
-/* h3 {
-  font-family: "Prompt";
-  font-style: italic;
-  margin-top: 0.5rem;
-} */
-
 h3 {
   font-weight: bold;
   margin-bottom: 10px;
-  align-self: center;
+  align-content: left;
+  font-size: 1.5em;
 }
 
 
@@ -362,13 +362,13 @@ table{
   padding-right: 1rem;
 }
 
-@media screen and (max-width: 40em){
+@media (max-width: 1179px){
   .product-list-item{
     max-width: 300px;
   }
   img:not(.banner-img){
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
   }
   .textfont{
     font-size:1rem;
@@ -390,6 +390,11 @@ table{
     margin-top: 1em;
   }
 
+  .explore-item{
+    max-width: 300px;
+    max-height: 350px;
+  }
+
   .block-zero{
     order:1;
   }
@@ -407,6 +412,117 @@ table{
   }
   .block-five{
     order:6;
+  }
+
+}
+
+
+@media(max-width: 910px){
+
+  section#product-listing h2{
+    font-size: 1.7rem;
+  }
+
+  section#explore-products h2{
+    font-size: 1.7rem;
+  }
+
+  h3{
+    font-size: 1rem;
+  }
+
+  p{
+    font-size: 0.9rem;
+  }
+
+  .website-header{
+    margin-left: 8rem;
+  }
+
+  .block-three{
+    display: none;
+  }
+  .product-list-item{
+    max-width: 200px;
+  }
+  img:not(.banner-img){
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .citations-box{
+    font-size: 0.5rem;
+  }
+  .art-direction-img{
+    max-width: 200px;
+  }
+
+  .bestseller-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bestseller-block .product-info {
+    margin-top: 1em;
+  }
+
+  .explore-item{
+    max-width: 250px;
+    max-height: 300px;
+  }
+
+  .nav-main-item{
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width:765px){
+  .block-two{
+    display: none;
+  }
+
+}
+
+@media (max-width:670px){
+  .nav-main-item{
+    display: none;
+  }
+
+  section#product-listing h2{
+    font-size: 1.5rem;
+  }
+
+  section#explore-products h2{
+    font-size: 1.5rem;
+  }
+
+  p{
+    font-size: 0.8rem;
+  }
+
+  .explore-item{
+    max-width: 200px;
+    max-height: 250px;
+  }
+  
+}
+
+@media (max-width:530px){
+  div.product-info p{
+    display: none;
+  }
+
+  section#product-listing h2{
+    font-size: 1.2rem;
+  }
+
+  section#explore-products h2{
+    font-size: 1.2rem;
+  }
+
+  .explore-item{
+    max-width: 150px;
+    max-height: 200px;
   }
 
 }
