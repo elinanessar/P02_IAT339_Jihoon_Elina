@@ -449,9 +449,9 @@ table{
     margin-left: 8rem;
   }
 
-  .block-three{
+  /* .block-three{
     display: none;
-  }
+  } */
   .product-list-item{
     max-width: 200px;
   }
@@ -488,9 +488,9 @@ table{
 
 
 @media (max-width:670px){
-  .nav-main-item{
+  /* .nav-main-item{
     display: none;
-  }
+  } */
 
   section#product-listing h2{
     font-size: 1.5rem;
@@ -512,9 +512,9 @@ table{
 }
 
 @media (max-width:580px){
-  div.product-info p{
+  /* div.product-info p{
     display: none;
-  }
+  } */
 
   section#product-listing h2{
     font-size: 1.3rem;
