@@ -152,6 +152,7 @@ h2:not(.section-heading, .special-headers) {
 .special-headers{
   color: white;
 }
+
 .see-more-link{
   color:#638b68;
   font-weight: bold;
