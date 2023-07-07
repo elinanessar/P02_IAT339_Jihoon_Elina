@@ -76,12 +76,13 @@ nav a:focus {
   text-decoration: none;
   transition: background-color 0.5s ease-out;
   margin: 1rem;
-  max-width: 500px;
+  max-width: 400px;
   border-radius: 1rem;
 }
 
 .product-list-item:hover, .product-list-item:focus{
-  filter: drop-shadow(7px 7px 10px #638b68);
+  background-color:rgba(0, 0, 0, 0.15);
+  border: 3px solid white;
 }
 
 .explore-item {
@@ -152,6 +153,9 @@ h2:not(.section-heading, .special-headers) {
 .special-headers{
   color: white;
 }
+ .product h2:hover{
+  color: black;
+ }
 
 .see-more-link{
   color:#638b68;
@@ -293,8 +297,8 @@ img:not(.product-list-img, .banner-img, .clean-img, .explore-list-img) {
 }
 
 .product-list-img{
-  width: 400px; 
-  height: 450px; 
+  width: 300px; 
+  height: 300px; 
 }
 
 .product-list {
@@ -453,18 +457,17 @@ table{
     padding:1rem;
   }
 
-
 }
 
 
 @media(max-width: 875px){
 
   section#product-listing h2{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   section#explore-products h2{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   h3{
