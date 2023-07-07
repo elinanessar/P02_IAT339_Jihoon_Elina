@@ -5,10 +5,16 @@
 .box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content:center;
   color: rgb(3, 3, 3);
   background-color: white;
   /* border: 3px solid #496b4d; */
+}
+.style-guide-menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  background-color: #91b38e;
 }
 
 .website-header {
@@ -25,7 +31,7 @@
 
 
 .nav-box-styling {
-  position: sticky;
+  position:static;
   top: 0;
   left: 0;
   right: 0;
@@ -114,6 +120,7 @@ ul {
 .nav-item {
   margin-right: 20px; /* Increase margin between items */
   margin-bottom: 5px; /* Increase margin between rows */
+  margin-top: 5px;
   align-self: center;
 }
 

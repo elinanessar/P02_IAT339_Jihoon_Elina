@@ -7,11 +7,15 @@ body {
   font-style: normal;
   margin: 0.5rem;
   font-size: 1em;
-  padding: 1rem;
+  /* padding: 1rem; */
   background-color:white;
   line-height: 1.5;
   color:#175700;
 }
+.web-info{
+  padding: 1rem;
+}
+
 .textfont {
   font-family: "NeueHaas";
   font-style: lighter;
@@ -31,6 +35,10 @@ body {
   text-decoration: none;
   padding: 0.25rem 0.25rem;
   transition: background-color 0.5s ease-out;
+}
+
+.style-guide-link{
+  
 }
 
 .cart-summary{
@@ -252,8 +260,10 @@ img:not(.product-list-img, .banner-img, .clean-img, .explore-list-img) {
 }
 
 .banner-img {
-  width: calc(100% + 4rem); /* Add the desired padding value to the width */
-  margin-left: -2rem; /* Adjust the negative margin to offset the added width */
+  /* width: calc(100% + 4rem); Add the desired padding value to the width */
+  /* margin-left: -2rem; Adjust the negative margin to offset the added width */
+  width:100%;
+  
 }
 
 .banner-section{
