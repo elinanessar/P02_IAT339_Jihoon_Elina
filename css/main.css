@@ -476,12 +476,6 @@ table{
   }
 }
 
-@media (max-width:765px){
-  .block-two{
-    display: none;
-  }
-
-}
 
 @media (max-width:670px){
   .nav-main-item{
@@ -507,23 +501,32 @@ table{
   
 }
 
-@media (max-width:530px){
+@media (max-width:580px){
   div.product-info p{
     display: none;
   }
 
   section#product-listing h2{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   section#explore-products h2{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .explore-item{
     max-width: 150px;
     max-height: 200px;
   }
+
+  div.explore-box h3{
+    font-size: 0.7rem;
+  }
+
+  div.explore-box p{
+    font-size: 0.7rem;
+  }
+
 
 }
 
