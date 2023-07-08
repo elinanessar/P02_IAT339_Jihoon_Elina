@@ -464,6 +464,10 @@ table{
   padding-right: 1rem;
 }
 
+.checkout-product{
+  height: 320px;
+}
+
 @media (max-width: 1000px){
   .product-list-item{
     max-width: 300px;
