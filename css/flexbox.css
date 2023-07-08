@@ -59,7 +59,7 @@
 .shop-products-nav ul{
   display:none;
 }
-.shop-products-nav h2:hover ul{
+.show-dropdown .shop-products-nav h2:hover ul{
   display:block;
 }
 
