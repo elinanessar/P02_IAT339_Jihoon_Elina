@@ -702,6 +702,11 @@ table {
     width: 90px;
     height: 90px;
   }
+  .product-information{
+    width:100%;
+    margin:1rem;
+    margin-top:0;
+  }
 }
 
 @media (max-width: 580px) {
@@ -751,11 +756,7 @@ table {
     width: 70px;
     height: 70px;
   }
-  .product-information{
-    width:100%;
-    margin:1rem;
-    margin-top:0;
-  }
+
 }
 @media (max-width: 400px) {
   .product-image-item {
