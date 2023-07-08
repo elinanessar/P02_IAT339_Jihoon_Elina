@@ -430,6 +430,11 @@ img:not(
   cursor: pointer;
 }
 
+.checkout-product{
+  width:330px;
+  height:330px;
+}
+
 /* Media query for smaller window width */
 @media (max-width: 70em) {
   .product {
