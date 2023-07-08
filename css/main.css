@@ -162,8 +162,11 @@ h1 {
   font-size: 5em;
 }
 
-h2:not(.section-heading, .special-headers) {
+h2:not(.section-heading, .special-headers, .product-info-title) {
   margin-top: 3rem;
+  font-size: 2.5em;
+}
+.product-info-title{
   font-size: 2.5em;
 }
 .special-headers {
@@ -297,8 +300,8 @@ img:not(
   border-radius: 15px;
 }
 .product-page-item {
-  width: 700px;
-  height: 700px;
+  width: 650px;
+  height: 650px;
 }
 .banner-img {
   /* width: calc(100% + 4rem); Add the desired padding value to the width */
@@ -340,7 +343,13 @@ img:not(
 } */
 
 .product-information {
-  width:25%;
+  width: 25%;
+  border: 1px solid #175700;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  height: 100%;
 }
 
 .product {
@@ -432,7 +441,7 @@ img:active:not(.clean-img, .banner-img) {
   /* border: 1.5px solid orangered; */
   filter: drop-shadow(5px 5px 10px #496b4d);
 }
-.button-product-page{
+.button-product-page {
   display: inline-block;
   padding: 0.5rem;
   color: white;
@@ -444,11 +453,11 @@ img:active:not(.clean-img, .banner-img) {
   align-self: flex-start; /* Align the button to the right side */
   justify-content: center;
   margin-top: auto; /* Pushes the button to the bottom */
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
 }
 
 /* Styling for the navigation button */
-.button-nav{
+.button-nav {
   display: inline-block;
   padding: 0.5rem;
   color: white;
@@ -500,7 +509,13 @@ table {
 .cart-summary table tr td:first-child {
   padding-right: 1rem;
 }
-
+@media (max-width: 1200px) {
+  .product-information {
+    width: 75%;
+    margin: 1rem;
+    margin-top: 0;
+  }
+}
 @media (max-width: 1000px) {
   .product-list-item {
     max-width: 300px;
@@ -566,6 +581,11 @@ table {
   .product-page-item {
     width: 400px;
     height: 400px;
+  }
+  .product-information {
+    width: 100%;
+    margin: 1rem;
+    margin-top: 0;
   }
 }
 
@@ -702,10 +722,10 @@ table {
     width: 90px;
     height: 90px;
   }
-  .product-information{
-    width:100%;
-    margin:1rem;
-    margin-top:0;
+  .product-information {
+    width: 100%;
+    margin: 1rem;
+    margin-top: 0;
   }
 }
 
@@ -756,7 +776,6 @@ table {
     width: 70px;
     height: 70px;
   }
-
 }
 @media (max-width: 400px) {
   .product-image-item {
