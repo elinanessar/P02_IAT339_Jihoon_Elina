@@ -87,7 +87,7 @@ ul {
   display: flex;
   flex-wrap:wrap;
   flex-direction:row;
-  justify-self:center ;
+  align-content:flex-end;
   /* padding: 10px; */
   height: 100%;
 }
@@ -114,6 +114,15 @@ ul {
   margin-right: 1rem;
 }
 
+.product-image-item{
+  display:flex;
+  flex-direction:column;
+}
+
+.product-container{
+  display:flex;
+  flex-wrap:wrap;
+}
 .bestseller-block {
   display: flex;
   align-items: center;
