@@ -373,7 +373,7 @@ img:not(
 
 .clean-img {
   max-width: 100%;
-  height: auto;
+
 }
 /* ----------- DROP DOWN MENU ----------- */
 .arrow {
@@ -526,7 +526,7 @@ table {
   .product-list-item {
     max-width: 300px;
   }
-  img:not(.banner-img, .product-page-item) {
+  img:not(.banner-img, .product-page-item .clean-img) {
     max-width: 300px;
     max-height: 300px;
   }
