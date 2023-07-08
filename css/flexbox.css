@@ -258,6 +258,22 @@ div.checkout-headings h3{
   
 }
 
+@media(max-width: 400px){
+  .checkout-cart-payment{
+    width:300px;
+  }
+
+  .checkout-product{
+    width:150px;
+    height: 180px;
+  }
+
+  .product-list-img{
+    width:140px;
+    height: 140px;
+  }
+}
+
 .checkout-listing{
   display:flex;
   flex-wrap: wrap;
