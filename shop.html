@@ -11,6 +11,7 @@
     <link href="css/fonts.css" rel="stylesheet" />
     <link href="css/flexbox.css" rel="stylesheet" />
     <link href="css/footer.css" rel="stylesheet" />
+    <script src="product.js"></script>
 </head>
 
 <body>
@@ -28,17 +29,28 @@
         </nav>
     </header>
     <section id="product-listing">
-        <h2>Products</h2>
+        <div class="shop-products-nav">
+            <h2 class="product-ddm" onclick="toggleDropdown()">Products<i class="arrow down"></i>
+                <ul class="shop-nav-box">
+                    <li class="ddm-link"><a href="#diffuser" class="shop-nav-link">diffuser</li>
+                    </p>
+                    <li class="ddm-link"><a href="#kits" class="shop-nav-link">kits</li>
+                    </p>
+                    <li class="ddm-link"><a href="#oils" class="shop-nav-link">oils</li>
+                    </p>
+                </ul>
+            </h2>
+        </div>
+
         <div class="product-list-categories">
 
-            <div class="category">
+            <div id="diffuser" class="category">
                 <h3>Diffuser</h3>
                 <div class="product-list">
                     <div class="product-list-item block1">
                         <h2 class="product special-headers">Aroma Om Diffuser</h2>
                         <figure class="textfont">
-                            <a
-                                href="https://www.saje.com/en-id/products/aroma-om-deluxe-cool-mist-diffuser-white?variant=45051455045929">
+                            <a href="product.html">
                                 <img src="img/diffuser.png" alt="image of a saje product: REMEDY & INHALER KIT"
                                     class="product-list-img" />
                             </a>
@@ -51,7 +63,7 @@
                                     more</a>
                             </figcaption> -->
                         </figure>
-                        <a class="button-nav" href="#">Add To Bag - 52.00$</a>
+                        <a class="button-nav" href="checkout.html">Add To Bag - 52.00$</a>
                     </div>
 
                     <div class="product-list-item block2">
@@ -156,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="category">
+            <div id="kits" class="category">
                 <h3>Kits</h3>
                 <div class="product-list">
                     <div class="product-list-item block1">
@@ -282,7 +294,7 @@
                 </div>
             </div>
 
-            <div class="category">
+            <div id="oils" class="category">
                 <h3>Oils</h3>
                 <div class="product-list">
                     <div class="product-list-item block1">
@@ -422,18 +434,18 @@
                 <div class="nav-item">
                     <h6>About Saje</h6>
                     <ul>
-                        <li class="li-first-object"><a href="our-history.html">Our History</a></li>
-                        <li><a href="work-with-us.html">Work with Us</a></li>
+                        <li class="li-first-object"><a href="https://www.saje.ca/pages/about-us">Our History</a></li>
+                        <li><a href="https://www.saje.ca/pages/careers">Work with Us</a></li>
                     </ul>
                 </div>
 
                 <div class="nav-item">
                     <h6>Help</h6>
                     <ul class="footer-links">
-                        <li class="li-first-object"><a href="support.html">Support</a></li>
+                        <li class="li-first-object"><a href="contact-us.html">Support</a></li>
                         <li><a href="contact-us.html">Contact</a></li>
-                        <li><a href="faqs.html">FAQs</a></li>
-                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="contact-us.html">FAQs</a></li>
+                        <li><a href="https://www.saje.ca/pages/store-locator">Locations</a></li>
                     </ul>
                 </div>
 
@@ -454,9 +466,9 @@
             <div class="row">
                 <div class="nav-item">
                     <ul class="social-icons">
-                        <li><a class="facebook" href="#">f</a></li>
-                        <li><a class="twitter" href="#">t</a></li>
-                        <li><a class="instagram" href="#">ig</a></li>
+                        <li><a class="facebook" href="https://www.facebook.com/SajeWellness/">f</a></li>
+                        <li><a class="twitter" href="https://twitter.com/sajewellness/">t</a></li>
+                        <li><a class="instagram" href="https://www.instagram.com/saje.natural.wellness/">ig</a></li>
                     </ul>
                 </div>
             </div>

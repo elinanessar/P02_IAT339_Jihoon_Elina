@@ -53,9 +53,22 @@ nav a:hover,
 nav a:focus {
   text-decoration: none;
 }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
 
-.style-guide-link{
-  
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+.shop-nav-link{
+  align-self: center;
+  font-size:1rem;
+  text-decoration: none;
+  color: #175700;
+  font-weight:bold;
 }
 
 .cart-summary{
@@ -67,8 +80,6 @@ nav a:focus {
   transition: background-color 0.5s ease-out;
 }
 
-
-
 .product-list-item {
   display: inline-block;
   background-color: #175700;
@@ -77,6 +88,7 @@ nav a:focus {
   transition: background-color 0.5s ease-out;
   margin: 1rem;
   max-width: 400px;
+  max-height:420px;
   border-radius: 1rem;
 }
 
@@ -137,9 +149,12 @@ ul {
   margin: 0;
 }
 
-ul li:not(.li-first-object) {
+ul li:not(.li-first-object, .ddm-link) {
   /* margin-bottom: 5px; */
   margin-left: 1rem;
+}
+.ddm-link{
+  padding-right:3rem;
 }
 
 h1{
@@ -245,11 +260,12 @@ label:hover,label:focus,label:active {
 }
 
 
+
 /* i found out how to implment the placeholder code from: https://www.w3schools.com/howto/howto_css_placeholder.asp */
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
-a:not(.see-more-link, .nav-item) {
+a:not(.see-more-link, .nav-item, .shop-nav-link) {
   color: white;
   text-decoration: none;
 }
@@ -297,8 +313,8 @@ img:not(.product-list-img, .banner-img, .clean-img, .explore-list-img) {
 }
 
 .product-list-img{
-  width: 300px; 
-  height: 300px; 
+  width: 250px; 
+  height: 250px; 
 }
 
 .product-list {
@@ -321,6 +337,60 @@ img:not(.product-list-img, .banner-img, .clean-img, .explore-list-img) {
 .clean-img {
   max-width: 100%;
   height: auto;
+}
+/* ----------- DROP DOWN MENU ----------- */
+.arrow {
+  border: solid #175700;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left:0.5rem;
+  margin-bottom:0.5rem;
+
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/* LINK TO SOURCE WHERE I LEARNED HOW TO CREATE THIS: https://www.w3schools.com/howto/howto_css_arrows.asp */
+
+ /*--------- CONTACT-US FORM CSS --------*/
+
+.contact-container{
+  max-width: 600px;
+  margin: 1rem auto;
+  padding:1rem;
+  border: 2px solid #638b68;
+  border-radius:15px;
+  background-color: white;
+}
+.form-group {
+  margin-bottom: 20px;
+}.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 150px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* Media query for smaller window width */
@@ -349,9 +419,10 @@ img:hover:not(.banner-img),img:focus:not(.banner-img),img:active:not(.clean-img,
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
-  border-radius: 25px;
+  border-radius: 15px;
   margin:1rem;
   align-self: flex-end; /* Align the button to the right side */
+  justify-content: center;
   margin-top: auto; /* Pushes the button to the bottom */
 }
 
@@ -445,7 +516,7 @@ table{
   .block-five{
     order:6;
   }
-  ul li:not(:last-child, .citations-list)::after {
+  ul li:not(:last-child, .citations-list, .shop-nav-link, .ddm-link)::after {
     content: "|";
     /* margin: 1rem; */
     padding:1rem;
@@ -468,6 +539,9 @@ table{
 
   section#product-listing h2{
     font-size: 1.5rem;
+  }
+  .shop-nav-link{
+    font-size:0.8rem;
   }
 
   section#explore-products h2{
@@ -495,7 +569,7 @@ table{
     display: none;
   } */
   .product-list-item{
-    max-width: 200px;
+    max-width: 250px;
   }
   img:not(.banner-img){
     max-width: 200px;
@@ -534,6 +608,12 @@ table{
   .product-list-item figure{
     margin-left:0;
   }
+  .button-nav{
+    padding:0.4rem;
+    border-radius:15px;
+    margin:0;
+    align-self:center;
+  }
 }
 
 
@@ -541,6 +621,21 @@ table{
   /* .nav-main-item{
     display: none;
   } */
+  section#product-listing h2{
+    font-size: 1.5rem;
+  }
+  
+  .shop-nav-link{
+    font-size:0.6rem;
+  }
+
+  .shop-products-nav{
+    flex-direction:column;
+  }
+
+  section#explore-products h2{
+    font-size: 1.5rem;
+  }
 
   p{
     font-size: 0.8rem;
@@ -560,6 +655,9 @@ table{
   .product-list-item figure{
     margin-left:0;
   }
+  .form-group textarea {
+    height: 100px;
+}
   
 }
 
