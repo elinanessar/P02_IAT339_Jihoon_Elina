@@ -269,17 +269,33 @@ div.checkout-headings h3{
 
 @media(max-width: 450px){
   .checkout-cart-payment{
-    width:200px;
+    width:320px;
   }
 
   .checkout-product{
-    width:150px;
+    width:120px;
     height: 180px;
   }
 
   .product-list-img{
-    width:140px;
-    height: 140px;
+    width:120px;
+    height: 130px;
+  }
+}
+
+@media(max-width: 335px){
+  .checkout-cart-payment{
+    width:240px;
+  }
+
+  .checkout-product{
+    width:80px;
+    height: 180px;
+  }
+
+  .product-list-img{
+    width:80px;
+    height: 90px;
   }
 }
 
