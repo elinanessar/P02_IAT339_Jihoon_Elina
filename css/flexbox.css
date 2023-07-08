@@ -190,10 +190,6 @@ div.checkout-headings h3{
 }
 
 @media(max-width:730px){
-
-  .checkout-cart-payment{
-    width:260px;
-  }
   
   .checkout-listing{
     margin: 1em;
@@ -209,6 +205,27 @@ div.checkout-headings h3{
   }
 }
 
+@media(max-width: 527px){
+  .checkout-cart-payment{
+    width:400px;
+  }
+
+  .checkout-product{
+    width:160px;
+    height: 190px;
+  }
+
+  .product-list-img{
+    width:150px;
+    height: 150px;
+  }
+
+  div.checkout-product h3{
+    font-size: 0.8em;
+  }
+  
+}
+
 .checkout-listing{
   display:flex;
   flex-wrap: wrap;
@@ -220,13 +237,12 @@ div.checkout-headings h3{
 .checkout-product{
   border-radius: 50px;
   max-width: 20rem;
-  max-height:20rem;
+  max-height:25rem;
   background-color: #175700;
 }
 
 div.checkout-product h3{
   display: flex;
-  text-align: center;
   margin: 0;
   
 }
