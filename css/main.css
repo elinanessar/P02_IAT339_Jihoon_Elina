@@ -409,7 +409,7 @@ table{
   padding-right: 1rem;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
   .product-list-item{
     max-width: 300px;
   }
@@ -475,17 +475,17 @@ table{
 }
 
 
-@media(max-width: 875px){
+@media(max-width: 750px){
 
   section#product-listing h2{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .shop-nav-link{
     font-size:0.8rem;
   }
 
   section#explore-products h2{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   h3{
@@ -562,6 +562,7 @@ table{
     display: none;
   } */
 
+<<<<<<< HEAD
   section#product-listing h2{
     font-size: 1.5rem;
   }
@@ -578,6 +579,8 @@ table{
     font-size: 1.5rem;
   }
 
+=======
+>>>>>>> main
   p{
     font-size: 0.8rem;
   }
