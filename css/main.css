@@ -53,9 +53,24 @@ nav a:hover,
 nav a:focus {
   text-decoration: none;
 }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
 
-.style-guide-link{
-  
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+.shop-nav-link{
+  margin-right:1rem;
+  align-self: center;
+  font-size:1rem;
+  text-decoration: none;
+  color: #175700;
+  font-weight:bold;
+  content: "|";
 }
 
 .cart-summary{
@@ -67,8 +82,6 @@ nav a:focus {
   transition: background-color 0.5s ease-out;
 }
 
-
-
 .product-list-item {
   display: inline-block;
   background-color: #175700;
@@ -77,6 +90,7 @@ nav a:focus {
   transition: background-color 0.5s ease-out;
   margin: 1rem;
   max-width: 400px;
+  max-height:420px;
   border-radius: 1rem;
 }
 
@@ -249,7 +263,7 @@ label:hover,label:focus,label:active {
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
-a:not(.see-more-link, .nav-item) {
+a:not(.see-more-link, .nav-item, .shop-nav-link) {
   color: white;
   text-decoration: none;
 }
@@ -297,8 +311,8 @@ img:not(.product-list-img, .banner-img, .clean-img, .explore-list-img) {
 }
 
 .product-list-img{
-  width: 300px; 
-  height: 300px; 
+  width: 250px; 
+  height: 250px; 
 }
 
 .product-list {
@@ -349,9 +363,10 @@ img:hover:not(.banner-img),img:focus:not(.banner-img),img:active:not(.clean-img,
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
-  border-radius: 25px;
+  border-radius: 15px;
   margin:1rem;
   align-self: flex-end; /* Align the button to the right side */
+  justify-content: center;
   margin-top: auto; /* Pushes the button to the bottom */
 }
 
@@ -465,6 +480,9 @@ table{
   section#product-listing h2{
     font-size: 1.3rem;
   }
+  .shop-nav-link{
+    font-size:0.8rem;
+  }
 
   section#explore-products h2{
     font-size: 1.3rem;
@@ -491,7 +509,7 @@ table{
     display: none;
   } */
   .product-list-item{
-    max-width: 200px;
+    max-width: 250px;
   }
   img:not(.banner-img){
     max-width: 200px;
@@ -530,6 +548,12 @@ table{
   .product-list-item figure{
     margin-left:0;
   }
+  .button-nav{
+    padding:0.4rem;
+    border-radius:15px;
+    margin:0;
+    align-self:center;
+  }
 }
 
 
@@ -540,6 +564,14 @@ table{
 
   section#product-listing h2{
     font-size: 1.5rem;
+  }
+  
+  .shop-nav-link{
+    font-size:0.6rem;
+  }
+
+  .shop-products-nav{
+    flex-direction:column;
   }
 
   section#explore-products h2{
