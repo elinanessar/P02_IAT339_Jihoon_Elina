@@ -252,6 +252,9 @@ div.checkout-headings h3{
     font-size:0.9rem;
   }
 
+  .short{
+    display:none;
+  }
   
 }
 
@@ -350,9 +353,4 @@ div.checkout-product h3{
   .checkout-block2 {
     order: 2;
   }
-}
-@media screen and(max-width: 670px) {
-  /* .shop-nav-box{
-    margin:0;
-  } */
 }
