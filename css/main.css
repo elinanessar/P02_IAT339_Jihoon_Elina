@@ -444,6 +444,7 @@ img:active:not(.clean-img, .banner-img) {
   align-self: flex-start; /* Align the button to the right side */
   justify-content: center;
   margin-top: auto; /* Pushes the button to the bottom */
+  margin-bottom:1rem;
 }
 
 /* Styling for the navigation button */
