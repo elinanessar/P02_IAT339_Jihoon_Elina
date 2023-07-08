@@ -178,7 +178,7 @@ h2:not(.section-heading, .special-headers) {
 h3 {
   font-weight: bold;
   margin-bottom: 10px;
-  align-content: left;
+  align-content: center;
   font-size: 1.5em;
 }
 
@@ -232,7 +232,7 @@ input:hover,input:focus,input:active {
   border: 1px solid #d3ecdc;
 }
 label {
-  color: #496b4d;
+  color: white;
   font-size: 1rem;
 }
 
@@ -460,7 +460,11 @@ table{
 }
 
 
-@media(max-width: 750px){
+@media(max-width: 730px){
+
+  .checkout-product{
+    height: 250px;
+  }
 
   section#product-listing h2{
     font-size: 1.5rem;
@@ -592,6 +596,10 @@ table{
   .banner-caption{
     font-size:0.9rem;
   }
+
+  /* .checkout-cart-payment{
+    width:100px;
+  } */
 
 }
 
