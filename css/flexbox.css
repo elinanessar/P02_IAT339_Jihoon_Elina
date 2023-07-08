@@ -223,6 +223,35 @@ div.checkout-headings h3{
   div.checkout-product h3{
     font-size: 0.8em;
   }
+  section#product-listing h2{
+    font-size: 1.3rem;
+  }
+
+  section#explore-products h2{
+    font-size: 1.3rem;
+  }
+
+  .explore-item{
+    max-width: 150px;
+    max-height: 200px;
+  }
+
+  div.explore-box h3{
+    font-size: 0.6rem;
+  }
+
+  div.explore-box p{
+    font-size: 0.6rem;
+  }
+
+  .footer-box{
+    font-size: 0.7rem;
+  }
+
+  .banner-caption{
+    font-size:0.9rem;
+  }
+
   
 }
 
