@@ -730,6 +730,11 @@ table {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
   }
+
+  .checkout-product{
+    width:330px;
+    height:330px;
+  }
 }
 
 @media (max-width: 670px) {
