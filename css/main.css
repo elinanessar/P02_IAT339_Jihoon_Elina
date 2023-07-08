@@ -64,13 +64,11 @@ nav a:focus {
 
 
 .shop-nav-link{
-  margin-right:1rem;
   align-self: center;
   font-size:1rem;
   text-decoration: none;
   color: #175700;
   font-weight:bold;
-  content: "|";
 }
 
 .cart-summary{
@@ -151,9 +149,12 @@ ul {
   margin: 0;
 }
 
-ul li:not(.li-first-object) {
+ul li:not(.li-first-object, .ddm-link) {
   /* margin-bottom: 5px; */
   margin-left: 1rem;
+}
+.ddm-link{
+  padding-right:3rem;
 }
 
 h1{
@@ -259,6 +260,7 @@ label:hover,label:focus,label:active {
 }
 
 
+
 /* i found out how to implment the placeholder code from: https://www.w3schools.com/howto/howto_css_placeholder.asp */
 /* 
   INTERACTIVE ELEMENTS -------------------
@@ -336,7 +338,21 @@ img:not(.product-list-img, .banner-img, .clean-img, .explore-list-img) {
   max-width: 100%;
   height: auto;
 }
+/* ----------- DROP DOWN MENU ----------- */
+.arrow {
+  border: solid #175700;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left:0.5rem;
+  margin-bottom:0.5rem;
 
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/* LINK TO SOURCE WHERE I LEARNED HOW TO CREATE THIS: https://www.w3schools.com/howto/howto_css_arrows.asp */
 
  /*--------- CONTACT-US FORM CSS --------*/
 
@@ -500,7 +516,7 @@ table{
   .block-five{
     order:6;
   }
-  ul li:not(:last-child, .citations-list)::after {
+  ul li:not(:last-child, .citations-list, .shop-nav-link, .ddm-link)::after {
     content: "|";
     /* margin: 1rem; */
     padding:1rem;
