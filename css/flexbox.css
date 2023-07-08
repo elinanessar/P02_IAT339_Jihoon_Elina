@@ -283,6 +283,22 @@ div.checkout-headings h3{
   }
 }
 
+@media(max-width: 390px){
+  .checkout-cart-payment{
+    width:290px;
+  }
+
+  .checkout-product{
+    width:105px;
+    height: 180px;
+  }
+
+  .product-list-img{
+    width:100px;
+    height: 100px;
+  }
+}
+
 @media(max-width: 335px){
   .checkout-cart-payment{
     width:240px;
