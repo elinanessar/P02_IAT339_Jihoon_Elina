@@ -260,7 +260,7 @@ div.checkout-headings h3{
 
 @media(max-width: 300px){
   .checkout-cart-payment{
-    width:300px;
+    width:200px;
   }
 
   .checkout-product{
