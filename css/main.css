@@ -18,8 +18,14 @@ body {
 
 .textfont {
   font-family: "NeueHaas";
-  font-style: lighter;
+  font-weight: lighter;
   color: white;
+}
+
+.category{
+  background-color: rgba(195, 236, 199, 0.2);
+  padding:1rem;
+  border-radius: 15px;;
 }
 
 .element {
