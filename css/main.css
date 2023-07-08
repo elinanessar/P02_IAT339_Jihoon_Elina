@@ -366,8 +366,8 @@ img:not(
 }
 
 .clean-img {
-  max-width: 100%;
-  height: auto;
+  max-width: 500px;
+
 }
 /* ----------- DROP DOWN MENU ----------- */
 .arrow {
